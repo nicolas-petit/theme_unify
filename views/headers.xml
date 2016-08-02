@@ -1,0 +1,576 @@
+<odoo>
+
+<template id="theme_unify.logo" name="theme_unify.logo">
+    <a class="navbar-brand" href="/" t-if="website" t-field="website.name">My Website</a>
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-top-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"/>
+            <span class="icon-bar"/>
+            <span class="icon-bar"/>
+        </button>
+    </div>
+</template>
+
+<template id="theme_unify.navbar" name="theme_unify.navbar">
+    <div class="container">
+        <ul class="nav navbar-nav navbar-right" id="top_menu">
+            <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                <t t-call="website.submenu"/>
+            </t>
+            <li class="divider" t-ignore="true" t-if="website.user_id != user_id"/>
+            <li class="dropdown" t-ignore="true" t-if="website.user_id != user_id">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <b>
+                        <span t-esc="(len(user_id.name)&gt;25) and (user_id.name[:23]+'...') or user_id.name"/>
+                    </b>
+                </a>
+                <ul class="dropdown-menu js_usermenu" role="menu">
+                    <li id="o_logout"><a t-attf-href="/web/session/logout?redirect=/" role="menuitem">Logout</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</template>
+
+<template id="website.layout_logo_show" name="Show Logo" inherit_id="theme_unify.logo" active="False" customize_show="True">
+    <xpath expr="//a[@class='navbar-brand']" position="replace">
+        <a href="/" class="navbar-brand logo">
+            <img src="/logo.png" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
+        </a>
+    </xpath>
+</template>
+
+<template id="website.show_sign_in"  name="Show Sign In" inherit_id="theme_unify.navbar" customize_show="True">
+    <xpath expr="//ul[@id='top_menu']" position="inside">
+        <li class="divider" groups="base.group_public"/>
+        <li groups="base.group_public">
+            <a t-attf-href="/web/login">
+                <b>Sign in</b>
+            </a>
+        </li>
+    </xpath>
+</template>
+
+
+
+<template id="theme_unify.header_default_link" name="header_default_link" inherit_id="theme_unify.assets_frontend">
+    <xpath expr="//link[last()]" position="after">
+        <link name="header-default" href="/theme_unify/static/src/css/options/headers/header-default.css" rel="stylesheet" type="text/css"/>
+    </xpath>
+</template>
+
+<template id="theme_unify.header_default" name="header_default" inherit_id="website.layout">
+    <xpath expr="//header" position="replace">
+        <header class="header">
+            <div class="container">
+                <!-- Logo -->
+                <t t-call="theme_unify.logo"/>
+                <!--  End Logo -->
+
+                <!-- Topbar -->
+                <div class="topbar"/>
+                <!--  End Topbar -->
+
+                <!-- Toggle get grouped for better mobile display -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse"/><!-- /end container -->
+                <!--  End Toggle -->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
+                <t t-call="theme_unify.navbar"/>
+            </div><!-- /navbar-collapse -->
+        </header>
+    </xpath>
+</template>
+
+
+<template id="theme_unify.header_centered_link" name="header_centered_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+    <link name="header-default" position="replace">
+        <link name="header-default" href="/theme_unify/static/src/css/options/headers/header-default-centered.css" rel="stylesheet" type="text/css"/>
+    </link>
+</template>
+
+
+<template id="theme_unify.header_v1_link" name="header_v1_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+    <link name="header-default" position="replace">
+        <link href="/theme_unify/static/src/css/options/headers/header-v1.css" rel="stylesheet" type="text/css"/>
+    </link>
+</template>
+
+<template id="theme_unify.option_header_v1" name="option_header_v1" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header v1===-->
+        <header class="header-v1">
+            <!-- Topbar -->
+            <div class="topbar-v1"/>
+            <!--  End Topbar -->
+
+            <!-- Navbar -->
+            <div class="navbar navbar-default mega-menu" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <t t-call="theme_unify.logo"/>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
+                        <t t-call="theme_unify.navbar"/>
+                    </div><!-- /navbar-collapse -->
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </header>
+        <!-- End Header v1 -->
+    </header>
+</template>
+
+<template id="theme_unify.header_v2_link" name="header_v2_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+    <link name="header-default" position="replace">
+        <link href="/theme_unify/static/src/css/options/headers/header-v2.css" rel="stylesheet" type="text/css"/>
+    </link>
+</template>
+
+<template id="theme_unify.option_header_v2" name="option_header_v2" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header v2===-->
+        <div class="header-v2 header-sticky">
+            <div class="container container-space">
+                <!-- Topbar v2 -->
+                <div class="topbar-v2"/>
+                <!--  End Topbar v2 -->
+            </div>
+
+            <!-- Navbar -->
+            <div class="navbar navbar-default mega-menu" role="navigation">
+                <div class="container container-space">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <t t-call="theme_unify.logo"/>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-responsive-collapse">
+                        <t t-call="theme_unify.navbar"/>
+                    </div><!-- /navbar-collapse -->
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!-- End Header v2 -->
+    </header>
+</template>
+
+
+<template id="theme_unify.header_v3_link" name="header_v3_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+    <link name="header-default" position="replace">
+        <link href="/theme_unify/static/src/css/options/headers/header-v3.css" rel="stylesheet" type="text/css"/>
+    </link>
+</template>
+
+<template id="theme_unify.option_header_v3" name="option_header_v3" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header v3===-->
+        <div class="header-v3">
+            <div class="container container-space"/>
+            <!-- Navbar -->
+            <div class="navbar navbar-default mega-menu" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <t t-call="theme_unify.logo"/>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-responsive-collapse">
+                        <t t-call="theme_unify.navbar"/>
+                    </div><!-- /navbar-collapse -->
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!-- End Header v3 -->
+    </header>
+</template>
+
+
+<template id="theme_unify.header_v4_link" name="header_v4_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+    <link name="header-default" position="replace">
+        <link href="/theme_unify/static/src/css/options/headers/header-v4.css" rel="stylesheet" type="text/css"/>
+    </link>
+</template>
+
+<template id="theme_unify.option_header_v4" name="option_header_v4" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header v4===-->
+        <div class="header-v4">
+            <div class="container">
+                <!-- Topbar v1 -->
+                <div class="topbar-v1"/>
+                <!--  End Topbar v1 -->
+            </div>
+
+            <!-- Navbar -->
+            <div class="navbar navbar-default mega-menu" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <t t-call="theme_unify.logo"/>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-responsive-collapse">
+                        <t t-call="theme_unify.navbar"/>
+                    </div><!-- /navbar-collapse -->
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!-- End Header v4 -->
+    </header>
+</template>
+
+<template id="theme_unify.header_v4_centered_link" name="header_v4_centered_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+    <link name="header-default" position="replace">
+        <link href="/theme_unify/static/src/css/options/headers/header-v4-centered.css" rel="stylesheet" type="text/css"/>
+    </link>
+</template>
+
+<template id="theme_unify.option_header_centered_v4" name="option_header_v4_centered" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header v4===-->
+        <div class="header-v4">
+            <div class="container">
+                <!-- Topbar v1 -->
+                <div class="topbar-v1"/>
+                <!--  End Topbar v1 -->
+            </div>
+
+            <!-- Navbar -->
+            <div class="navbar navbar-default mega-menu" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <t t-call="theme_unify.logo"/>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-responsive-collapse">
+                        <t t-call="theme_unify.navbar"/>
+                    </div><!-- /navbar-collapse -->
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!-- End Header v4 -->
+    </header>
+</template>
+
+<template id="theme_unify.header_v5_link" name="header_v5_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+    <link name="header-default" position="replace">
+        <link href="/theme_unify/static/src/css/options/headers/header-v5.css" rel="stylesheet" type="text/css"/>
+    </link>
+</template>
+
+<template id="theme_unify.option_header_v5" name="option_header_v5" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header v5===-->
+        <div class="header-v5">
+            <div class="container">
+                <!-- Topbar v3 -->
+                <div class="topbar-v3"/>
+                <!--  End Topbar v3 -->
+            </div>
+
+            <!-- Navbar -->
+            <div class="navbar navbar-default mega-menu" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <t t-call="theme_unify.logo"/>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-responsive-collapse">
+                        <t t-call="theme_unify.navbar"/>
+                    </div><!-- /navbar-collapse -->
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!-- End Header v5 -->
+    </header>
+</template>
+
+<template id="theme_unify.header_v6_link" name="header_v6_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+    <link name="header-default" position="replace">
+        <link href="/theme_unify/static/src/css/options/headers/header-v6.css" rel="stylesheet" type="text/css"/>
+    </link>
+</template>
+
+<template id="theme_unify.option_header_v6_transparent" name="option_header_v6_transparent" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header 6===-->
+        <div class="header-6 header-sticky">
+            <!-- Navbar -->
+            <div class="navbar mega-menu" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container">
+                        <t t-call="theme_unify.logo"/>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-responsive-collapse">
+                        <t t-call="theme_unify.navbar"/>
+                    </div><!-- /navbar-collapse -->
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!-- End Header 6 -->
+    </header>
+</template>
+
+<template id="theme_unify.option_header_v6_dark_transparent" name="option_header_v6_dark_transparent" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header 6===-->
+        <div class="header-6 header-sticky">
+            <!-- Navbar -->
+            <div class="navbar mega-menu" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container">
+                        <t t-call="theme_unify.logo"/>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-responsive-collapse">
+                        <t t-call="theme_unify.navbar"/>
+                    </div><!-- /navbar-collapse -->
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!-- End Header 6 -->
+    </header>
+</template>
+
+<template id="theme_unify.option_header_v6_white_transparent" name="option_header_v6_white_transparent" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header 6===-->
+        <div class="header-6 header-sticky header-white-transparent">
+            <!-- Navbar -->
+            <div class="navbar mega-menu" role="navigation">
+                <div class="container">
+                    <t t-call="theme_unify.navbar"/>
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!-- End Header 6 -->
+    </header>
+</template>
+
+<template id="theme_unify.option_header_v6_border_bottom" name="option_header_v6_border_bottom" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header 6===-->
+        <div class="header-6 header-sticky header-border-bottom">
+            <!-- Navbar -->
+            <div class="navbar mega-menu" role="navigation">
+                <div class="container">
+                    <t t-call="theme_unify.navbar"/>
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!-- End Header 6 -->
+    </header>
+</template>
+
+<template id="theme_unify.option_header_v6_classic_dark" name="option_header_v6_classic_dark" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header 6===-->
+        <div class="header-6 header-sticky header-classic-dark">
+            <!-- Navbar -->
+            <div class="navbar mega-menu" role="navigation">
+                <div class="container">
+                    <t t-call="theme_unify.navbar"/>
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!-- End Header 6 -->
+    </header>
+</template>
+
+<template id="theme_unify.option_header_v6_classic_white" name="option_header_v6_classic_white" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header 6===-->
+        <div class="header-6 header-sticky header-classic-white">
+            <!-- Navbar -->
+            <div class="navbar mega-menu" role="navigation">
+                <div class="container">
+                    <t t-call="theme_unify.navbar"/>
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!-- End Header 6 -->
+    </header>
+</template>
+
+<template id="theme_unify.option_header_v6_dark_dropdown" name="option_header_v6_dark_dropdown" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header 6===-->
+        <div class="header-6 header-sticky header-dark-dropdown">
+            <!-- Navbar -->
+            <div class="navbar mega-menu" role="navigation">
+                <div class="container">
+                    <t t-call="theme_unify.navbar"/>
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!-- End Header 6 -->
+    </header>
+</template>
+
+<template id="theme_unify.option_header_v6_dark_onscroll" name="option_header_v6_dark_onscroll" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header 6===-->
+        <div class="header-6 header-sticky header-dark-scroll">
+            <!-- Navbar -->
+            <div class="navbar mega-menu" role="navigation">
+                <div class="container">
+                    <t t-call="theme_unify.navbar"/>
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!-- End Header 6 -->
+    </header>
+</template>
+
+<template id="theme_unify.option_header_v6_dark_search" name="option_header_v6_dark_search" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header 6===-->
+        <div class="header-6 header-sticky header-dark-search">
+            <!-- Navbar -->
+            <div class="navbar mega-menu" role="navigation">
+                <div class="container">
+                    <t t-call="theme_unify.navbar"/>
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!-- End Header 6 -->
+    </header>
+</template>
+
+<template id="theme_unify.option_header_v6_dark_responsive" name="option_header_v6_dark_responsive" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header 6===-->
+        <div class="header-6 header-sticky header-dark-res-nav">
+            <!-- Navbar -->
+            <div class="navbar mega-menu" role="navigation">
+                <div class="container">
+                    <t t-call="theme_unify.navbar"/>
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!-- End Header 6 -->
+    </header>
+</template>
+
+
+<template id="theme_unify.header_v7_link" name="header_v7_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+    <link name="header-default" position="replace">
+        <link href="/theme_unify/static/src/css/options/headers/header-v7.css" rel="stylesheet" type="text/css"/>
+    </link>
+</template>
+
+<template id="theme_unify.option_header_v7_left" name="option_header_v7_left" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header v7 Left===-->
+        <div class="header-v7 header-left-v7">
+            <nav class="navbar navbar-default mCustomScrollbar" role="navigation" data-mcs-theme="minimal-dark">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="menu-container">
+                    <t t-call="theme_unify.logo"/>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-responsive-collapse">
+                    <t t-call="theme_unify.navbar"/>
+                </div>
+            </nav>
+        </div>
+        <!-- End Header v7 Left-->
+    </header>
+</template>
+
+<template id="theme_unify.option_header_v7_right" name="option_header_v7_right" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header v7 Right===-->
+        <div class="header-v7 header-right-v7">
+            <nav class="navbar navbar-default mCustomScrollbar" role="navigation" data-mcs-theme="minimal-dark">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="menu-container">
+                    <t t-call="theme_unify.logo"/>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-responsive-collapse">
+                    <t t-call="theme_unify.navbar"/>
+                </div>
+            </nav>
+        </div>
+        <!-- End Header v7 Right-->
+    </header>
+</template>
+
+
+
+<template id="theme_unify.header_v8_link" name="header_v8_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+    <link name="header-default" position="replace">
+        <link href="/theme_unify/static/src/css/options/headers/header-v8.css" rel="stylesheet" type="text/css"/>
+    </link>
+</template>
+
+<template id="theme_unify.option_header_v8" name="option_header_v8" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+    <header class="header" position="replace">
+        <!--=== Header v8===-->
+        <div class="header-v8 header-sticky">
+            <!-- Topbar blog -->
+            <div class="blog-topbar"/>
+            <!-- End Topbar blog -->
+
+            <!-- Navbar -->
+            <div class="navbar mega-menu" role="navigation">
+              <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="res-container">
+                    <t t-call="theme_unify.logo"/>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-responsive-collapse">
+                    <t t-call="theme_unify.navbar"/>
+                </div>
+              </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!-- End Header v8-->
+    </header>
+</template>
+
+</odoo>
