@@ -33,7 +33,7 @@
     </div>
 </template>
 
-<template id="website.layout_logo_show" name="Show Logo" inherit_id="theme_unify.logo" active="False" customize_show="True">
+<template id="website.layout_logo_show" name="Show Logo" inherit_id="theme_unify.logo" customize_show="True">
     <xpath expr="//a[@class='navbar-brand']" position="replace">
         <a href="/" class="navbar-brand logo">
             <img src="/logo.png" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
@@ -86,20 +86,20 @@
 </template>
 
 
-<template id="theme_unify.header_centered_link" name="header_centered_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+<template id="theme_unify.header_centered_link" name="header_centered_link" inherit_id="theme_unify.header_default_link" active="False">
     <link name="header-default" position="replace">
         <link name="header-default" href="/theme_unify/static/src/css/options/headers/header-default-centered.css" rel="stylesheet" type="text/css"/>
     </link>
 </template>
 
 
-<template id="theme_unify.header_v1_link" name="header_v1_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+<template id="theme_unify.header_v1_link" name="header_v1_link" inherit_id="theme_unify.header_default_link" active="False">
     <link name="header-default" position="replace">
         <link href="/theme_unify/static/src/css/options/headers/header-v1.css" rel="stylesheet" type="text/css"/>
     </link>
 </template>
 
-<template id="theme_unify.option_header_v1" name="option_header_v1" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v1" name="option_header_v1" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header v1===-->
         <header class="header-v1">
@@ -127,13 +127,13 @@
     </header>
 </template>
 
-<template id="theme_unify.header_v2_link" name="header_v2_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+<template id="theme_unify.header_v2_link" name="header_v2_link" inherit_id="theme_unify.header_default_link" active="False">
     <link name="header-default" position="replace">
         <link href="/theme_unify/static/src/css/options/headers/header-v2.css" rel="stylesheet" type="text/css"/>
     </link>
 </template>
 
-<template id="theme_unify.option_header_v2" name="option_header_v2" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v2" name="option_header_v2" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header v2===-->
         <div class="header-v2 header-sticky">
@@ -164,13 +164,13 @@
 </template>
 
 
-<template id="theme_unify.header_v3_link" name="header_v3_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+<template id="theme_unify.header_v3_link" name="header_v3_link" inherit_id="theme_unify.header_default_link" active="False">
     <link name="header-default" position="replace">
         <link href="/theme_unify/static/src/css/options/headers/header-v3.css" rel="stylesheet" type="text/css"/>
     </link>
 </template>
 
-<template id="theme_unify.option_header_v3" name="option_header_v3" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v3" name="option_header_v3" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header v3===-->
         <div class="header-v3">
@@ -196,13 +196,13 @@
 </template>
 
 
-<template id="theme_unify.header_v4_link" name="header_v4_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+<template id="theme_unify.header_v4_link" name="header_v4_link" inherit_id="theme_unify.header_default_link" active="False">
     <link name="header-default" position="replace">
         <link href="/theme_unify/static/src/css/options/headers/header-v4.css" rel="stylesheet" type="text/css"/>
     </link>
 </template>
 
-<template id="theme_unify.option_header_v4" name="option_header_v4" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v4" name="option_header_v4" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header v4===-->
         <div class="header-v4">
@@ -234,13 +234,13 @@
     </header>
 </template>
 
-<template id="theme_unify.header_v4_centered_link" name="header_v4_centered_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+<template id="theme_unify.header_v4_centered_link" name="header_v4_centered_link" inherit_id="theme_unify.header_default_link" active="False">
     <link name="header-default" position="replace">
         <link href="/theme_unify/static/src/css/options/headers/header-v4-centered.css" rel="stylesheet" type="text/css"/>
     </link>
 </template>
 
-<template id="theme_unify.option_header_centered_v4" name="option_header_v4_centered" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v4_centered" name="option_header_v4_centered" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header v4===-->
         <div class="header-v4">
@@ -272,13 +272,13 @@
     </header>
 </template>
 
-<template id="theme_unify.header_v5_link" name="header_v5_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+<template id="theme_unify.header_v5_link" name="header_v5_link" inherit_id="theme_unify.header_default_link" active="False">
     <link name="header-default" position="replace">
         <link href="/theme_unify/static/src/css/options/headers/header-v5.css" rel="stylesheet" type="text/css"/>
     </link>
 </template>
 
-<template id="theme_unify.option_header_v5" name="option_header_v5" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v5" name="option_header_v5" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header v5===-->
         <div class="header-v5">
@@ -308,13 +308,13 @@
     </header>
 </template>
 
-<template id="theme_unify.header_v6_link" name="header_v6_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+<template id="theme_unify.header_v6_link" name="header_v6_link" inherit_id="theme_unify.header_default_link" active="False">
     <link name="header-default" position="replace">
         <link href="/theme_unify/static/src/css/options/headers/header-v6.css" rel="stylesheet" type="text/css"/>
     </link>
 </template>
 
-<template id="theme_unify.option_header_v6_transparent" name="option_header_v6_transparent" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v6_transparent" name="option_header_v6_transparent" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header 6===-->
         <div class="header-6 header-sticky">
@@ -338,7 +338,7 @@
     </header>
 </template>
 
-<template id="theme_unify.option_header_v6_dark_transparent" name="option_header_v6_dark_transparent" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v6_dark_transparent" name="option_header_v6_dark_transparent" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header 6===-->
         <div class="header-6 header-sticky">
@@ -362,7 +362,7 @@
     </header>
 </template>
 
-<template id="theme_unify.option_header_v6_white_transparent" name="option_header_v6_white_transparent" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v6_white_transparent" name="option_header_v6_white_transparent" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header 6===-->
         <div class="header-6 header-sticky header-white-transparent">
@@ -378,7 +378,7 @@
     </header>
 </template>
 
-<template id="theme_unify.option_header_v6_border_bottom" name="option_header_v6_border_bottom" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v6_border_bottom" name="option_header_v6_border_bottom" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header 6===-->
         <div class="header-6 header-sticky header-border-bottom">
@@ -394,7 +394,7 @@
     </header>
 </template>
 
-<template id="theme_unify.option_header_v6_classic_dark" name="option_header_v6_classic_dark" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v6_classic_dark" name="option_header_v6_classic_dark" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header 6===-->
         <div class="header-6 header-sticky header-classic-dark">
@@ -410,7 +410,7 @@
     </header>
 </template>
 
-<template id="theme_unify.option_header_v6_classic_white" name="option_header_v6_classic_white" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v6_classic_white" name="option_header_v6_classic_white" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header 6===-->
         <div class="header-6 header-sticky header-classic-white">
@@ -426,7 +426,7 @@
     </header>
 </template>
 
-<template id="theme_unify.option_header_v6_dark_dropdown" name="option_header_v6_dark_dropdown" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v6_dark_dropdown" name="option_header_v6_dark_dropdown" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header 6===-->
         <div class="header-6 header-sticky header-dark-dropdown">
@@ -442,7 +442,7 @@
     </header>
 </template>
 
-<template id="theme_unify.option_header_v6_dark_onscroll" name="option_header_v6_dark_onscroll" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v6_dark_onscroll" name="option_header_v6_dark_onscroll" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header 6===-->
         <div class="header-6 header-sticky header-dark-scroll">
@@ -458,7 +458,7 @@
     </header>
 </template>
 
-<template id="theme_unify.option_header_v6_dark_search" name="option_header_v6_dark_search" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v6_dark_search" name="option_header_v6_dark_search" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header 6===-->
         <div class="header-6 header-sticky header-dark-search">
@@ -474,7 +474,7 @@
     </header>
 </template>
 
-<template id="theme_unify.option_header_v6_dark_responsive" name="option_header_v6_dark_responsive" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v6_dark_responsive" name="option_header_v6_dark_responsive" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header 6===-->
         <div class="header-6 header-sticky header-dark-res-nav">
@@ -491,13 +491,13 @@
 </template>
 
 
-<template id="theme_unify.header_v7_link" name="header_v7_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+<template id="theme_unify.header_v7_link" name="header_v7_link" inherit_id="theme_unify.header_default_link" active="False">
     <link name="header-default" position="replace">
         <link href="/theme_unify/static/src/css/options/headers/header-v7.css" rel="stylesheet" type="text/css"/>
     </link>
 </template>
 
-<template id="theme_unify.option_header_v7_left" name="option_header_v7_left" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v7_left" name="option_header_v7_left" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header v7 Left===-->
         <div class="header-v7 header-left-v7">
@@ -517,7 +517,7 @@
     </header>
 </template>
 
-<template id="theme_unify.option_header_v7_right" name="option_header_v7_right" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v7_right" name="option_header_v7_right" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header v7 Right===-->
         <div class="header-v7 header-right-v7">
@@ -539,13 +539,13 @@
 
 
 
-<template id="theme_unify.header_v8_link" name="header_v8_link" inherit_id="theme_unify.header_default_link" active="False" customize_show="True">
+<template id="theme_unify.header_v8_link" name="header_v8_link" inherit_id="theme_unify.header_default_link" active="False">
     <link name="header-default" position="replace">
         <link href="/theme_unify/static/src/css/options/headers/header-v8.css" rel="stylesheet" type="text/css"/>
     </link>
 </template>
 
-<template id="theme_unify.option_header_v8" name="option_header_v8" inherit_id="theme_unify.header_default" active="False" customize_show="True">
+<template id="theme_unify.option_header_v8" name="option_header_v8" inherit_id="theme_unify.header_default" active="False">
     <header class="header" position="replace">
         <!--=== Header v8===-->
         <div class="header-v8 header-sticky">

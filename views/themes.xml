@@ -1034,91 +1034,91 @@
         </xpath>
 </template>
 
-<template id="theme_unify.option_layout_boxed" name="option_layout_boxed" inherit_id="website.layout" active="False" customize_show="True">
+<template id="theme_unify.option_layout_boxed" name="option_layout_boxed" inherit_id="website.layout" active="False">
     <xpath expr="//body" position="attributes">
         <attribute name="class">boxed-layout container</attribute>
     </xpath>
 </template>
 
-<template id="theme_unify.option_layout_dark_link" name="option_layout_dark_link" inherit_id="theme_unify.assets_frontend" active="False" customize_show="True">
+<template id="theme_unify.option_layout_dark_link" name="option_layout_dark_link" inherit_id="theme_unify.assets_frontend" active="False">
     <xpath expr="//link[last()]" position="after">
         <link href="/theme_unify/static/src/css/options/theme_skins/dark.css" rel="stylesheet" type="text/css"/>
     </xpath>
 </template>
 
-<template id="theme_unify.option_layout_dark_body" name="option_layout_dark_body" inherit_id="website.layout" active="False" customize_show="True">
+<template id="theme_unify.option_layout_dark_body" name="option_layout_dark_body" inherit_id="website.layout" active="False">
     <xpath expr="//body" position="attributes">
         <attribute name="class">dark</attribute>
     </xpath>
 </template>
 
-<template id="theme_unify.option_layout_boxed_dark_body" name="option_layout_boxed_dark_body" inherit_id="website.layout" active="False" customize_show="True">
+<template id="theme_unify.option_layout_boxed_dark_body" name="option_layout_boxed_dark_body" inherit_id="website.layout" active="False">
     <xpath expr="//body" position="attributes">
         <attribute name="class">boxed-layout container dark</attribute>
     </xpath>
 </template>
 
-<template id="theme_unify.option_color_blue" name="option_color_blue" inherit_id="theme_unify.assets_frontend" active="False" customize_show="True">
+<template id="theme_unify.option_color_blue" name="option_color_blue" inherit_id="theme_unify.assets_frontend" active="False">
     <xpath expr="//link[last()]" position="after">
         <link href="/theme_unify/static/src/css/options/theme_colors/blue.css" rel="stylesheet" type="text/css"/>
     </xpath>
 </template>
 
-<template id="theme_unify.option_color_orange" name="option_color_orange" inherit_id="theme_unify.assets_frontend" active="False" customize_show="True">
+<template id="theme_unify.option_color_orange" name="option_color_orange" inherit_id="theme_unify.assets_frontend" active="False">
     <xpath expr="//link[last()]" position="after">
         <link href="/theme_unify/static/src/css/options/theme_colors/orange.css" rel="stylesheet" type="text/css"/>
     </xpath>
 </template>
 
-<template id="theme_unify.option_color_red" name="option_color_red" inherit_id="theme_unify.assets_frontend" active="False" customize_show="True">
+<template id="theme_unify.option_color_red" name="option_color_red" inherit_id="theme_unify.assets_frontend" active="False">
     <xpath expr="//link[last()]" position="after">
         <link href="/theme_unify/static/src/css/options/theme_colors/red.css" rel="stylesheet" type="text/css"/>
     </xpath>
 </template>
 
-<template id="theme_unify.option_color_light" name="option_color_light" inherit_id="theme_unify.assets_frontend" active="False" customize_show="True">
+<template id="theme_unify.option_color_light" name="option_color_light" inherit_id="theme_unify.assets_frontend" active="False">
     <xpath expr="//link[last()]" position="after">
         <link href="/theme_unify/static/src/css/options/theme_colors/light.css" rel="stylesheet" type="text/css"/>
     </xpath>
 </template>
 
-<template id="theme_unify.option_color_purple" name="option_color_purple" inherit_id="theme_unify.assets_frontend" active="False" customize_show="True">
+<template id="theme_unify.option_color_purple" name="option_color_purple" inherit_id="theme_unify.assets_frontend" active="False">
     <xpath expr="//link[last()]" position="after">
         <link href="/theme_unify/static/src/css/options/theme_colors/purple.css" rel="stylesheet" type="text/css"/>
     </xpath>
 </template>
 
-<template id="theme_unify.option_color_aqua" name="option_color_aqua" inherit_id="theme_unify.assets_frontend" active="False" customize_show="True">
+<template id="theme_unify.option_color_aqua" name="option_color_aqua" inherit_id="theme_unify.assets_frontend" active="False">
     <xpath expr="//link[last()]" position="after">
         <link href="/theme_unify/static/src/css/options/theme_colors/aqua.css" rel="stylesheet" type="text/css"/>
     </xpath>
 </template>
 
-<template id="theme_unify.option_color_brown" name="option_color_brown" inherit_id="theme_unify.assets_frontend" active="False" customize_show="True">
+<template id="theme_unify.option_color_brown" name="option_color_brown" inherit_id="theme_unify.assets_frontend" active="False">
     <xpath expr="//link[last()]" position="after">
         <link href="/theme_unify/static/src/css/options/theme_colors/brown.css" rel="stylesheet" type="text/css"/>
     </xpath>
 </template>
 
-<template id="theme_unify.option_color_dark_blue" name="option_color_dark_blue" inherit_id="theme_unify.assets_frontend" active="False" customize_show="True">
+<template id="theme_unify.option_color_dark_blue" name="option_color_dark_blue" inherit_id="theme_unify.assets_frontend" active="False">
     <xpath expr="//link[last()]" position="after">
         <link href="/theme_unify/static/src/css/options/theme_colors/dark-blue.css" rel="stylesheet" type="text/css"/>
     </xpath>
 </template>
 
-<template id="theme_unify.option_color_light_green" name="option_color_light_green" inherit_id="theme_unify.assets_frontend" active="False" customize_show="True">
+<template id="theme_unify.option_color_light_green" name="option_color_light_green" inherit_id="theme_unify.assets_frontend" active="False">
     <xpath expr="//link[last()]" position="after">
         <link href="/theme_unify/static/src/css/options/theme_colors/light_green.css" rel="stylesheet" type="text/css"/>
     </xpath>
 </template>
 
-<template id="theme_unify.option_color_dark_red" name="option_color_dark_red" inherit_id="theme_unify.assets_frontend" active="False" customize_show="True">
+<template id="theme_unify.option_color_dark_red" name="option_color_dark_red" inherit_id="theme_unify.assets_frontend" active="False">
     <xpath expr="//link[last()]" position="after">
         <link href="/theme_unify/static/src/css/options/theme_colors/dark_red.css" rel="stylesheet" type="text/css"/>
     </xpath>
 </template>
 
-<template id="theme_unify.option_color_teal" name="option_color_teal" inherit_id="theme_unify.assets_frontend" active="False" customize_show="True">
+<template id="theme_unify.option_color_teal" name="option_color_teal" inherit_id="theme_unify.assets_frontend" active="False">
     <xpath expr="//link[last()]" position="after">
         <link href="/theme_unify/static/src/css/options/theme_colors/teal.css" rel="stylesheet" type="text/css"/>
     </xpath>
