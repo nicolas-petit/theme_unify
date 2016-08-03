@@ -1,0 +1,48 @@
+<odoo>
+
+    <template id="snippet_unify_opt" name="Snippet Unify Options" inherit_id="website.snippet_options">
+        <xpath expr="//div[@data-js='background']" position="after">
+            <div data-selector=".btn-u">
+                <li class="dropdown-submenu">
+                    <a href="#">Color</a>
+                    <ul class="dropdown-menu">
+                        <li data-select_class="btn-u-blue"><a>Blue</a></li>
+                        <li data-select_class="btn-u-red"><a>Red</a></li>
+                        <li data-select_class="btn-u-orange"><a>Orange</a></li>
+                        <li data-select_class="btn-u-sea"><a>Turquoise</a></li>
+                        <li data-select_class="btn-u-green"><a>Green</a></li>
+                        <li data-select_class="btn-u-yellow"><a>Yellow</a></li>
+                        <li data-select_class="btn-u-default"><a>Grey</a></li>
+                        <li data-select_class="btn-u-dark"><a>Dark</a></li>
+                        <li data-select_class="btn-u-purple"><a>Purple</a></li>
+                        <li data-select_class="btn-u-aqua"><a>Aqua</a></li>
+                        <li data-select_class="btn-u-brown"><a>Brown</a></li>
+                        <li data-select_class="btn-u-dark-blue"><a>Dark Blue</a></li>
+                        <li data-select_class="btn-u-light-green"><a>Light Green</a></li>
+                        <li data-select_class=""><a>Default</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="#">Size</a>
+                    <ul class="dropdown-menu">
+                        <li data-select_class="btn-lg"><a>Large</a></li>
+                        <li data-select_class=""><a>Regular</a></li>
+                        <li data-select_class="btn-sm"><a>Small</a></li>
+                        <li data-select_class="btn-xs"><a>Mini</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="#">Rounded</a>
+                    <ul class="dropdown-menu">
+                        <li data-select_class="rounded"><a>Rounded</a></li>
+                        <li data-select_class="rounded-2x"><a>Rounded 2x</a></li>
+                        <li data-select_class="rounded-3x"><a>Rounded 3x</a></li>
+                        <li data-select_class="rounded-4x"><a>Rounded 4x</a></li>
+                        <li data-select_class=""><a>None</a></li>
+                    </ul>
+                </li>
+            </div>
+        </xpath>
+     </template>
+
+</odoo>

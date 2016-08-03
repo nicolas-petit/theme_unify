@@ -12,6 +12,7 @@
         'views/headers.xml',
         'views/footers.xml',
         'views/themes.xml',
+        'views/options.xml',
     ],
     # 'qweb': ['static/src/xml/header.xml'],
     'installable': True,
