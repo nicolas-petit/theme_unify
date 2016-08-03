@@ -46,6 +46,7 @@
                                 <li class="active"><a href="#tab_layout" role="tab" data-toggle="tab"><i class="fa fa-desktop"/>  LAYOUT</a></li>
                                 <li><a href="#tab_palettes" role="tab" data-toggle="tab"><i class="fa fa-paint-brush "/>  PALETTES</a></li>
                                 <li><a href="#tab_headers" role="tab" data-toggle="tab"><i class="fa fa-paint-brush "/>  HEADERS</a></li>
+                                <li><a href="#tab_footers" role="tab" data-toggle="tab"><i class="fa fa-paint-brush "/>  FOOTERS</a></li>
                                 <li><a href="#tab_fonts" role="tab" data-toggle="tab"><i class="fa fa-font"/>  FONTS</a></li>
                             </ul>
 
@@ -961,6 +962,274 @@
 
 
                                 </div>  <!-- Close header container -->
+
+
+                                <!-- =========  FOOTERS =============== -->
+                                <div name="footer" class="container-fluid tab-pane fade" id="tab_footers">
+
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <label class="chd-layout-combi center-block ">
+                                                <div class="sample_body fullwidth">
+                                                    <div class="sample_browser">
+                                                        <div class="pull-left">
+                                                            <i class="fa fa-arrow-left"/><i class="fa fa-arrow-right"/>
+                                                        </div>
+                                                        <div class="pull-left sample_addressBar">http://www.odoo.com/this/is/a/sample/url</div>
+                                                        <div class="pull-right">
+                                                            <i class="fa fa-circle"/><i class="fa fa-circle"/><i class="fa fa-circle"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sample_wrap">
+                                                        <div class="sample_header">
+                                                            <h3>Company</h3>
+                                                            <p class="sample_menu">Home<span/>About Us<span/>Contact</p>
+                                                        </div>
+                                                        <div class="sample_content">
+                                                            <div class="sample_image"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>Footer "Default" </p>
+                                                <input name="footervar" type="radio" data-xmlid=""/>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <label class="chd-layout-combi center-block ">
+                                                <div class="sample_body boxed">
+                                                    <div class="sample_browser">
+                                                        <div class="pull-left">
+                                                            <i class="fa fa-arrow-left"/><i class="fa fa-arrow-right"/>
+                                                        </div>
+                                                        <div class="pull-left sample_addressBar">http://www.odoo.com/this/is/a/sample/url</div>
+                                                        <div class="pull-right">
+                                                            <i class="fa fa-circle"/><i class="fa fa-circle"/><i class="fa fa-circle"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sample_wrap">
+                                                        <div class="sample_header">
+                                                            <h3>Company</h3>
+                                                            <p class="sample_menu">Home<span/>About Us<span/>Contact</p>
+                                                        </div>
+                                                        <div class="sample_content">
+                                                            <div class="sample_image"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>Footer v1</p>
+                                                <input name="footervar" type="radio" data-xmlid="theme_unify.footer_v1_link,theme_unify.option_footer_v1"/>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <label class="chd-layout-combi center-block ">
+                                                <div class="sample_body boxed">
+                                                    <div class="sample_browser">
+                                                        <div class="pull-left">
+                                                            <i class="fa fa-arrow-left"/><i class="fa fa-arrow-right"/>
+                                                        </div>
+                                                        <div class="pull-left sample_addressBar">http://www.odoo.com/this/is/a/sample/url</div>
+                                                        <div class="pull-right">
+                                                            <i class="fa fa-circle"/><i class="fa fa-circle"/><i class="fa fa-circle"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sample_wrap">
+                                                        <div class="sample_header">
+                                                            <h3>Company</h3>
+                                                            <p class="sample_menu">Home<span/>About Us<span/>Contact</p>
+                                                        </div>
+                                                        <div class="sample_content">
+                                                            <div class="sample_image"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>Footer v2</p>
+                                                <input name="footervar" type="radio" data-xmlid="theme_unify.footer_v2_link,theme_unify.option_footer_v2"/>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <label class="chd-layout-combi center-block ">
+                                                <div class="sample_body boxed">
+                                                    <div class="sample_browser">
+                                                        <div class="pull-left">
+                                                            <i class="fa fa-arrow-left"/><i class="fa fa-arrow-right"/>
+                                                        </div>
+                                                        <div class="pull-left sample_addressBar">http://www.odoo.com/this/is/a/sample/url</div>
+                                                        <div class="pull-right">
+                                                            <i class="fa fa-circle"/><i class="fa fa-circle"/><i class="fa fa-circle"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sample_wrap">
+                                                        <div class="sample_header">
+                                                            <h3>Company</h3>
+                                                            <p class="sample_menu">Home<span/>About Us<span/>Contact</p>
+                                                        </div>
+                                                        <div class="sample_content">
+                                                            <div class="sample_image"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>Footer v3</p>
+                                                <input name="footervar" type="radio" data-xmlid="theme_unify.footer_v3_link,theme_unify.option_footer_v3"/>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <label class="chd-layout-combi center-block ">
+                                                <div class="sample_body boxed">
+                                                    <div class="sample_browser">
+                                                        <div class="pull-left">
+                                                            <i class="fa fa-arrow-left"/><i class="fa fa-arrow-right"/>
+                                                        </div>
+                                                        <div class="pull-left sample_addressBar">http://www.odoo.com/this/is/a/sample/url</div>
+                                                        <div class="pull-right">
+                                                            <i class="fa fa-circle"/><i class="fa fa-circle"/><i class="fa fa-circle"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sample_wrap">
+                                                        <div class="sample_header">
+                                                            <h3>Company</h3>
+                                                            <p class="sample_menu">Home<span/>About Us<span/>Contact</p>
+                                                        </div>
+                                                        <div class="sample_content">
+                                                            <div class="sample_image"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>Footer v4</p>
+                                                <input name="footervar" type="radio" data-xmlid="theme_unify.footer_v4_link,theme_unify.option_footer_v4"/>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <label class="chd-layout-combi center-block ">
+                                                <div class="sample_body boxed">
+                                                    <div class="sample_browser">
+                                                        <div class="pull-left">
+                                                            <i class="fa fa-arrow-left"/><i class="fa fa-arrow-right"/>
+                                                        </div>
+                                                        <div class="pull-left sample_addressBar">http://www.odoo.com/this/is/a/sample/url</div>
+                                                        <div class="pull-right">
+                                                            <i class="fa fa-circle"/><i class="fa fa-circle"/><i class="fa fa-circle"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sample_wrap">
+                                                        <div class="sample_header">
+                                                            <h3>Company</h3>
+                                                            <p class="sample_menu">Home<span/>About Us<span/>Contact</p>
+                                                        </div>
+                                                        <div class="sample_content">
+                                                            <div class="sample_image"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>Footer v5</p>
+                                                <input name="footervar" type="radio" data-xmlid="theme_unify.footer_v5_link,theme_unify.option_footer_v5"/>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <label class="chd-layout-combi center-block ">
+                                                <div class="sample_body boxed">
+                                                    <div class="sample_browser">
+                                                        <div class="pull-left">
+                                                            <i class="fa fa-arrow-left"/><i class="fa fa-arrow-right"/>
+                                                        </div>
+                                                        <div class="pull-left sample_addressBar">http://www.odoo.com/this/is/a/sample/url</div>
+                                                        <div class="pull-right">
+                                                            <i class="fa fa-circle"/><i class="fa fa-circle"/><i class="fa fa-circle"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sample_wrap">
+                                                        <div class="sample_header">
+                                                            <h3>Company</h3>
+                                                            <p class="sample_menu">Home<span/>About Us<span/>Contact</p>
+                                                        </div>
+                                                        <div class="sample_content">
+                                                            <div class="sample_image"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>Footer v6</p>
+                                                <input name="footervar" type="radio" data-xmlid="theme_unify.footer_v6_link,theme_unify.option_footer_v6"/>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <label class="chd-layout-combi center-block ">
+                                                <div class="sample_body boxed">
+                                                    <div class="sample_browser">
+                                                        <div class="pull-left">
+                                                            <i class="fa fa-arrow-left"/><i class="fa fa-arrow-right"/>
+                                                        </div>
+                                                        <div class="pull-left sample_addressBar">http://www.odoo.com/this/is/a/sample/url</div>
+                                                        <div class="pull-right">
+                                                            <i class="fa fa-circle"/><i class="fa fa-circle"/><i class="fa fa-circle"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sample_wrap">
+                                                        <div class="sample_header">
+                                                            <h3>Company</h3>
+                                                            <p class="sample_menu">Home<span/>About Us<span/>Contact</p>
+                                                        </div>
+                                                        <div class="sample_content">
+                                                            <div class="sample_image"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>Footer v7</p>
+                                                <input name="footervar" type="radio" data-xmlid="theme_unify.footer_v7_link,theme_unify.option_footer_v7"/>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <label class="chd-layout-combi center-block ">
+                                                <div class="sample_body boxed">
+                                                    <div class="sample_browser">
+                                                        <div class="pull-left">
+                                                            <i class="fa fa-arrow-left"/><i class="fa fa-arrow-right"/>
+                                                        </div>
+                                                        <div class="pull-left sample_addressBar">http://www.odoo.com/this/is/a/sample/url</div>
+                                                        <div class="pull-right">
+                                                            <i class="fa fa-circle"/><i class="fa fa-circle"/><i class="fa fa-circle"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sample_wrap">
+                                                        <div class="sample_header">
+                                                            <h3>Company</h3>
+                                                            <p class="sample_menu">Home<span/>About Us<span/>Contact</p>
+                                                        </div>
+                                                        <div class="sample_content">
+                                                            <div class="sample_image"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>Footer v8</p>
+                                                <input name="footervar" type="radio" data-xmlid="theme_unify.footer_v8_link,theme_unify.option_footer_v8"/>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                </div>  <!-- Close header container -->
+
 
                                 <!-- =========  FONTS COMBINATIONS =============== -->
                                 <div name="fonts" class="container-fluid tab-pane fade " id="tab_fonts">

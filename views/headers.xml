@@ -53,7 +53,6 @@
 </template>
 
 
-
 <template id="theme_unify.header_default_link" name="header_default_link" inherit_id="theme_unify.assets_frontend">
     <xpath expr="//link[last()]" position="after">
         <link name="header-default" href="/theme_unify/static/src/css/options/headers/header-default.css" rel="stylesheet" type="text/css"/>

@@ -1,0 +1,137 @@
+<odoo>
+
+<template id="theme_unify.footer_default_link" name="footer_default_link" inherit_id="theme_unify.assets_frontend">
+    <xpath expr="//link[last()]" position="after">
+        <link name="footer-default" href="/theme_unify/static/src/css/options/footers/footer-default.css" rel="stylesheet" type="text/css"/>
+    </xpath>
+</template>
+
+<template id="theme_unify.footer_default" name="footer_default" inherit_id="website.layout">
+    <footer position="attributes">
+        <attribute name="class">footer-default</attribute>
+    </footer>
+</template>
+
+<template id="theme_unify.footer_default_automatic" name="footer_default_automatic" inherit_id="website.footer_default">
+    <div id="footer" position="attributes">
+        <attribute name="class">footer container hidden-print</attribute>
+    </div>
+</template>
+
+<template id="theme_unify.footer_default_custom" name="footer_default_custom" inherit_id="website.footer_custom">
+    <div id="footer" position="attributes">
+        <attribute name="class">footer container hidden-print oe_structure</attribute>
+    </div>
+</template>
+
+<template id="theme_unify.footer_default_copyright" name="footer_default_copyright" inherit_id="website.layout_footer_copyright">
+    <div class="container mt16 mb8" position="attributes">
+        <attribute name="class">copyright container mt16 mb8</attribute>
+    </div>
+</template>
+
+
+<template id="theme_unify.footer_v1_link" name="footer_v1_link" inherit_id="theme_unify.footer_default_link" active="False">
+    <link name="footer-default" position="replace">
+        <link href="/theme_unify/static/src/css/options/footers/footer-v1.css" rel="stylesheet" type="text/css"/>
+    </link>
+</template>
+
+<template id="theme_unify.option_footer_v1" name="option_footer_v1" inherit_id="theme_unify.footer_default" active="False">
+    <footer position="attributes">
+        <attribute name="class">footer-v1</attribute>
+    </footer>
+</template>
+
+
+<template id="theme_unify.footer_v2_link" name="footer_v2_link" inherit_id="theme_unify.footer_default_link" active="False">
+    <link name="footer-default" position="replace">
+        <link href="/theme_unify/static/src/css/options/footers/footer-v2.css" rel="stylesheet" type="text/css"/>
+    </link>
+</template>
+
+<template id="theme_unify.option_footer_v2" name="option_footer_v2" inherit_id="theme_unify.footer_default" active="False">
+    <footer position="attributes">
+        <attribute name="class">footer-v2</attribute>
+    </footer>
+</template>
+
+
+<template id="theme_unify.footer_v3_link" name="footer_v3_link" inherit_id="theme_unify.footer_default_link" active="False">
+    <link name="footer-default" position="replace">
+        <link href="/theme_unify/static/src/css/options/footers/footer-v3.css" rel="stylesheet" type="text/css"/>
+    </link>
+</template>
+
+<template id="theme_unify.option_footer_v3" name="option_footer_v3" inherit_id="theme_unify.footer_default" active="False">
+    <footer position="attributes">
+        <attribute name="class">footer-v3</attribute>
+    </footer>
+</template>
+
+
+<template id="theme_unify.footer_v4_link" name="footer_v4_link" inherit_id="theme_unify.footer_default_link" active="False">
+    <link name="footer-default" position="replace">
+        <link href="/theme_unify/static/src/css/options/footers/footer-v4.css" rel="stylesheet" type="text/css"/>
+    </link>
+</template>
+
+<template id="theme_unify.option_footer_v4" name="option_footer_v4" inherit_id="theme_unify.footer_default" active="False">
+    <footer position="attributes">
+        <attribute name="class">footer-v4</attribute>
+    </footer>
+</template>
+
+
+<template id="theme_unify.footer_v5_link" name="footer_v5_link" inherit_id="theme_unify.footer_default_link" active="False">
+    <link name="footer-default" position="replace">
+        <link href="/theme_unify/static/src/css/options/footers/footer-v5.css" rel="stylesheet" type="text/css"/>
+    </link>
+</template>
+
+<template id="theme_unify.option_footer_v5" name="option_footer_v5" inherit_id="theme_unify.footer_default" active="False">
+    <footer position="attributes">
+        <attribute name="class">footer-v5</attribute>
+    </footer>
+</template>
+
+
+<template id="theme_unify.footer_v6_link" name="footer_v6_link" inherit_id="theme_unify.footer_default_link" active="False">
+    <link name="footer-default" position="replace">
+        <link href="/theme_unify/static/src/css/options/footers/footer-v6.css" rel="stylesheet" type="text/css"/>
+    </link>
+</template>
+
+<template id="theme_unify.option_footer_v6" name="option_footer_v6" inherit_id="theme_unify.footer_default" active="False">
+    <footer position="attributes">
+        <attribute name="class">footer-v6</attribute>
+    </footer>
+</template>
+
+
+<template id="theme_unify.footer_v7_link" name="footer_v7_link" inherit_id="theme_unify.footer_default_link" active="False">
+    <link name="footer-default" position="replace">
+        <link href="/theme_unify/static/src/css/options/footers/footer-v7.css" rel="stylesheet" type="text/css"/>
+    </link>
+</template>
+
+<template id="theme_unify.option_footer_v7" name="option_footer_v7" inherit_id="theme_unify.footer_default" active="False">
+    <footer position="attributes">
+        <attribute name="class">footer-v7</attribute>
+    </footer>
+</template>
+
+
+<template id="theme_unify.footer_v8_link" name="footer_v8_link" inherit_id="theme_unify.footer_default_link" active="False">
+    <link name="footer-default" position="replace">
+        <link href="/theme_unify/static/src/css/options/footers/footer-v8.css" rel="stylesheet" type="text/css"/>
+    </link>
+</template>
+
+<template id="theme_unify.option_footer_v8" name="option_footer_v8" inherit_id="theme_unify.footer_default" active="False">
+    <footer position="attributes">
+        <attribute name="class">footer-v8</attribute>
+    </footer>
+</template>
+
+</odoo>

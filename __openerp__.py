@@ -9,6 +9,7 @@
     'data': [
         'views/assets.xml',
         'views/headers.xml',
+        'views/footers.xml',
         'views/themes.xml',
     ],
     # 'qweb': ['static/src/xml/header.xml'],
