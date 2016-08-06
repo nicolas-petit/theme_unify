@@ -7,7 +7,8 @@
     'author': 'Yannick Buron (Clouder)',
     'depends': ['website'],
     'data': [
-        'views/features/*.xml',
+        'views/features/news.xml',
+        'views/features/parallax.xml',
         'views/specials/assets.xml',
         'views/specials/headers.xml',
         'views/specials/footers.xml',
