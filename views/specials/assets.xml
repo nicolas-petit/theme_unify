@@ -29,7 +29,7 @@
                 <a href="#snippet_unify" class="scroll-link">
                     <span class="fa-stack fa-lg">
                         <i class="fa fa-square fa-stack-2x fa-inverse"/>
-                        <i class="fa fa-th-large fa-stack-1x"/>
+                        <i class="fa fa-desktop fa-stack-1x"/>
                     </span>
                 </a>
             </li>
@@ -43,8 +43,17 @@
                     </span> Unify
                 </div>
                 <div class="o_panel_body">
-                    <t t-snippet="theme_unify.snippet_news" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
+                    <t t-snippet="theme_unify.snippet_news" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
                     <t t-snippet="theme_unify.snippet_parallax" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
+
+                    <t t-snippet="theme_unify.snippet_textTitleBg" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                    <t t-snippet="theme_unify.snippet_basicContent" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                    <t t-snippet="theme_unify.snippet_3Blocks" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                    <t t-snippet="theme_unify.snippet_verticalStats" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                    <t t-snippet="theme_unify.snippet_growingNumbers" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                    <t t-snippet="theme_unify.snippet_teamPresentation" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                    <t t-snippet="theme_unify.snippet_testimonial" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                    <t t-snippet="theme_unify.snippet_imageSlider" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
                 </div>
             </div>
         </div>
