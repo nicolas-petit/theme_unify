@@ -132,7 +132,7 @@
             <div class="row team-v3">
                 <div class="col-md-3 col-sm-6 md-margin-bottom-50">
                     <div class="team-img">
-                        <img class="img-responsive" src="assets/img/team/img1-md.jpg" alt="" />
+                        <img class="img-responsive" src="../../../static/assets/img/team/img1-md.jpg" alt="" />
                         <div class="team-hover">
                             <span>Daniel Wearne</span>
                             <small>Technical Director</small>
@@ -147,7 +147,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 md-margin-bottom-50">
                     <div class="team-img">
-                        <img class="img-responsive" src="assets/img/team/img5-md.jpg" alt="" />
+                        <img class="img-responsive" src="../../../static/assets/img/team/img5-md.jpg" alt="" />
                         <div class="team-hover">
                             <span>Sara Lisbon</span>
                             <small>Designer</small>
@@ -162,7 +162,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 sm-margin-bottom-50">
                     <div class="team-img">
-                        <img class="img-responsive" src="assets/img/team/img3-md.jpg" alt="" />
+                        <img class="img-responsive" src="../../../static/assets/img/team/img3-md.jpg" alt="" />
                         <div class="team-hover">
                             <span>John Doe</span>
                             <small>Developer</small>
@@ -177,7 +177,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="team-img">
-                        <img class="img-responsive" src="assets/img/team/img2-md.jpg" alt="" />
+                        <img class="img-responsive" src="../../../static/assets/img/team/img2-md.jpg" alt="" />
                         <div class="team-hover">
                             <span>Alice Williams</span>
                             <small>Support</small>
@@ -208,7 +208,7 @@
                     <div class="row margin-bottom-50">
                         <div class="col-md-6 md-margin-bottom-50">
                             <div class="testimonials-info rounded-bottom">
-                                <img class="rounded-x" src="assets/img/testimonials/img5.jpg" alt="" />
+                                <img class="rounded-x" src="../../../static/assets/img/testimonials/img5.jpg" alt="" />
                                 <div class="testimonials-desc">
                                     <p>Donec quis lorem sit amet nibh tempor porttitor non eu justo. Fusce iaculis scelerisque nibh at rhoncus. Aliquam blandit.</p>
                                     <strong>Evan Bohringer</strong>
@@ -218,7 +218,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="testimonials-info rounded-bottom">
-                                <img class="rounded-x" src="assets/img/testimonials/img6.jpg" alt="" />
+                                <img class="rounded-x" src="../../../static/assets/img/testimonials/img6.jpg" alt="" />
                                 <div class="testimonials-desc">
                                     <p>Donec quis lorem sit amet nibh tempor porttitor non eu justo. Fusce iaculis scelerisque nibh at rhoncus. Aliquam blandit.</p>
                                     <strong>Sara Lisbon</strong>
@@ -231,7 +231,7 @@
                     <div class="row margin-bottom-20">
                         <div class="col-md-6 md-margin-bottom-50">
                             <div class="testimonials-info rounded-bottom">
-                                <img class="rounded-x" src="assets/img/testimonials/img3.jpg" alt="" />
+                                <img class="rounded-x" src="../../../static/assets/img/testimonials/img3.jpg" alt="" />
                                 <div class="testimonials-desc">
                                     <p>Donec quis lorem sit amet nibh tempor porttitor non eu justo. Fusce iaculis scelerisque nibh at rhoncus. Aliquam blandit.</p>
                                     <strong>Alice Williams</strong>
@@ -241,7 +241,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="testimonials-info rounded-bottom">
-                                <img class="rounded-x" src="assets/img/testimonials/img2.jpg" alt="" />
+                                <img class="rounded-x" src="../../../static/assets/img/testimonials/img2.jpg" alt="" />
                                 <div class="testimonials-desc">
                                     <p>Donec quis lorem sit amet nibh tempor porttitor non eu justo. Fusce iaculis scelerisque nibh at rhoncus. Aliquam blandit.</p>
                                     <strong>Jane Wearne</strong>
@@ -260,31 +260,31 @@
         <div class="container content-sm">
             <div class="owl-clients-v1">
                 <div class="item">
-                    <img src="assets/img/clients4/1.png" alt="" />
+                    <img src="../../../static/assets/img/clients4/1.png" alt="" />
                 </div>
                 <div class="item">
-                    <img src="assets/img/clients4/2.png" alt="" />
+                    <img src="../../../static/assets/img/clients4/2.png" alt="" />
                 </div>
                 <div class="item">
-                    <img src="assets/img/clients4/3.png" alt="" />
+                    <img src="../../../static/assets/img/clients4/3.png" alt="" />
                 </div>
                 <div class="item">
-                    <img src="assets/img/clients4/4.png" alt="" />
+                    <img src="../../../static/assets/img/clients4/4.png" alt="" />
                 </div>
                 <div class="item">
-                    <img src="assets/img/clients4/5.png" alt="" />
+                    <img src="../../../static/assets/img/clients4/5.png" alt="" />
                 </div>
                 <div class="item">
-                    <img src="assets/img/clients4/6.png" alt="" />
+                    <img src="../../../static/assets/img/clients4/6.png" alt="" />
                 </div>
                 <div class="item">
-                    <img src="assets/img/clients4/7.png" alt="" />
+                    <img src="../../../static/assets/img/clients4/7.png" alt="" />
                 </div>
                 <div class="item">
-                    <img src="assets/img/clients4/8.png" alt="" />
+                    <img src="../../../static/assets/img/clients4/8.png" alt="" />
                 </div>
                 <div class="item">
-                    <img src="assets/img/clients4/9.png" alt="" />
+                    <img src="../../../static/assets/img/clients4/9.png" alt="" />
                 </div>
             </div>
         </div>
