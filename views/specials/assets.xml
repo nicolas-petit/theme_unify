@@ -17,11 +17,10 @@
         	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/css/theme-skins/dark.css" />
         	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/css/custom.css" />
         </xpath>
-       <xpath expr="//script[last()]" position="after">
-            <!-- <script type="text/javascript" src="/website/static/src/js/website.js"/>
-            <script type="text/javascript" src="/website/static/src/js/website.share.js"/>
-            <script type="text/javascript" src="/website/static/src/js/website.snippets.animation.js"/> -->
-            <!-- <script type="text/javascript" src="/theme_unify/static/assets/plugins/jquery/jquery.min.js"></script>
+    </template>
+
+    <template id="assets_animations" name="Unify animations assets" inherit_id="website.assets_editor">
+        <xpath expr="//script[last()]" position="after">
             <script type="text/javascript" src="/theme_unify/static/assets/plugins/jquery/jquery-migrate.min.js"></script>
             <script type="text/javascript" src="/theme_unify/static/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
             <script type="text/javascript" src="/theme_unify/static/assets/plugins/back-to-top.js"></script>
@@ -35,8 +34,8 @@
             <script type="text/javascript" src="/theme_unify/static/assets/js/app.js"></script>
             <script type="text/javascript" src="/theme_unify/static/assets/js/plugins/progress-bar.js"></script>
             <script type="text/javascript" src="/theme_unify/static/assets/js/plugins/owl-carousel.js"></script>
-            <script type="text/javascript" src="/theme_unify/static/assets/js/plugins/style-switcher.js"></script> -->
-            <!-- <script type="text/javascript">
+            <script type="text/javascript" src="/theme_unify/static/assets/js/plugins/style-switcher.js"></script>
+            <script type="text/javascript">
             jQuery(document).ready(function() {
                 App.init();
                 App.initCounter();
@@ -45,8 +44,7 @@
                 StyleSwitcher.initStyleSwitcher();
                 ProgressBar.initProgressBarVertical();
             });
-            </script> -->
-
+            </script>
             <!--[if lt IE 9]>
             <script src="/theme_unify/static/assets/plugins/respond.js"></script>
             <script src="/theme_unify/static/assets/plugins/html5shiv.js"></script>
