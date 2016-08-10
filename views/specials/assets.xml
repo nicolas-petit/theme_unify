@@ -98,6 +98,20 @@
                     <t t-snippet="theme_unify.snippet_teamPresentation" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
                     <t t-snippet="theme_unify.snippet_testimonial" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
                     <t t-snippet="theme_unify.snippet_imageSlider" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+
+                    <t t-snippet="theme_unify.snippet_promo" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
+                    <t t-snippet="theme_unify.snippet_color_service" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
+                    <t t-snippet="theme_unify.snippet_intro" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
+                    <t t-snippet="theme_unify.snippet_call_action" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
+                    <t t-snippet="theme_unify.snippet_parallax_twitter" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
+                    <t t-snippet="theme_unify.snippet_testimonials" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
+                    <t t-snippet="theme_unify.snippet_vision" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
+                    <t t-snippet="theme_unify.snippet_team" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
+                    <t t-snippet="theme_unify.snippet_parallax_counter" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
+                    <t t-snippet="theme_unify.snippet_services" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
+                    <t t-snippet="theme_unify.snippet_latest_news" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
+                    <t t-snippet="theme_unify.snippet_portfolio" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
+                    <t t-snippet="theme_unify.snippet_pricing_light" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
                 </div>
             </div>
         </div>

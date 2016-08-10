@@ -46,7 +46,7 @@
                                 <li class="active"><a href="#tab_layout" role="tab" data-toggle="tab"><i class="fa fa-desktop"/>  LAYOUT</a></li>
                                 <li><a href="#tab_palettes" role="tab" data-toggle="tab"><i class="fa fa-paint-brush "/>  PALETTES</a></li>
                                 <li><a href="#tab_headers" role="tab" data-toggle="tab"><i class="fa fa-paint-brush "/>  HEADERS</a></li>
-                                <li><a href="#tab_footers" role="tab" data-toggle="tab"><i class="fa fa-paint-brush "/>  FOOTERS</a></li>
+                                <!--<li><a href="#tab_footers" role="tab" data-toggle="tab"><i class="fa fa-paint-brush "/>  FOOTERS</a></li>-->
                                 <li><a href="#tab_fonts" role="tab" data-toggle="tab"><i class="fa fa-font"/>  FONTS</a></li>
                             </ul>
 
@@ -965,7 +965,7 @@
 
 
                                 <!-- =========  FOOTERS =============== -->
-                                <div name="footer" class="container-fluid tab-pane fade" id="tab_footers">
+                            <!--    <div name="footer" class="container-fluid tab-pane fade" id="tab_footers">
 
                                     <div class="row">
                                         <div class="col-xs-12">
@@ -1228,7 +1228,7 @@
                                         </div>
                                     </div>
 
-                                </div>  <!-- Close header container -->
+                                </div>-->  <!-- Close footer container -->
 
 
                                 <!-- =========  FONTS COMBINATIONS =============== -->
