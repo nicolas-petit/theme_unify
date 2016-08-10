@@ -1,5 +1,4 @@
-<!-- <odoo>
-
+<odoo>
     <template id="snippet_news" name="News snippet">
         <section>
             <div class="container content-sm">
@@ -13,35 +12,13 @@
                             <a href="#" class="btn-u">Purchase Now</a>
                         </div>
                         <div class="col-md-6">
-                            <div class="responsive-video"></div>
+                            <div class="responsive-video"><!--
+                                <iframe src="//player.vimeo.com/video/78451097?title=0&amp;byline=0&amp;portrait=0&amp;badge=0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" frameborder="0"></iframe>
+                            --></div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
         </section>
     </template>
-
-    <template id="snippet_parallax" name="Parallax snippet">
-        <section>
-            <div class="parallax-quote parallaxBg" style="background-position: 50% 79px;">
-                <div class="container">
-                    <div class="parallax-quote-in">
-                        <p>If you can design one thing <span class="color-green">you can design</span> everything. <br/> Just Believe It.</p>
-                        <small>- HtmlStream -</small>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </template>
-
-
-    <template id="snippet_aboutUs" name="About Us snippet">
-        <div class="breadcrumbs-v3 img-v1 text-center">
-			<div class="container">
-				<h1>About Us</h1>
-				<p>Unify is a clean and fully responsive</p>
-			</div>
-		</div>
-    </template>
-
-</odoo> -->
+</odoo>

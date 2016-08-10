@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_frontend" name="Unify frontend assets" inherit_id="website.assets_frontend">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/css" href="/theme_unify/static/src/css/unify.css" />
+
+        	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/plugins/bootstrap/css/bootstrap.min.css" />
+        	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/css/style.css" />
+        	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/css/headers/header-default.css" />
+        	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/css/footers/footer-v1.css" />
+        	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/plugins/animate.css" />
+        	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/plugins/line-icons/line-icons.css" />
+        	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/plugins/font-awesome/css/font-awesome.min.css" />
+        	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/plugins/parallax-slider/css/parallax-slider.css" />
+        	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/plugins/owl-carousel/owl-carousel/owl.carousel.css" />
+        	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/css/theme-colors/default.css" id="style_color" />
+        	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/css/theme-skins/dark.css" />
+        	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/css/custom.css" />
+        </xpath>
+       <xpath expr="//script[last()]" position="after">
+            <!-- <script type="text/javascript" src="/website/static/src/js/website.js"/>
+            <script type="text/javascript" src="/website/static/src/js/website.share.js"/>
+            <script type="text/javascript" src="/website/static/src/js/website.snippets.animation.js"/> -->
+            <!-- <script type="text/javascript" src="/theme_unify/static/assets/plugins/jquery/jquery.min.js"></script>
+            <script type="text/javascript" src="/theme_unify/static/assets/plugins/jquery/jquery-migrate.min.js"></script>
+            <script type="text/javascript" src="/theme_unify/static/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="/theme_unify/static/assets/plugins/back-to-top.js"></script>
+            <script type="text/javascript" src="/theme_unify/static/assets/plugins/smoothScroll.js"></script>
+            <script type="text/javascript" src="/theme_unify/static/assets/plugins/jquery-appear.js"></script>
+            <script type="text/javascript" src="/theme_unify/static/assets/plugins/jquery.parallax.js"></script>
+            <script type="text/javascript" src="/theme_unify/static/assets/plugins/counter/waypoints.min.js"></script>
+            <script type="text/javascript" src="/theme_unify/static/assets/plugins/counter/jquery.counterup.min.js"></script>
+            <script type="text/javascript" src="/theme_unify/static/assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>
+            <script type="text/javascript" src="/theme_unify/static/assets/js/custom.js"></script>
+            <script type="text/javascript" src="/theme_unify/static/assets/js/app.js"></script>
+            <script type="text/javascript" src="/theme_unify/static/assets/js/plugins/progress-bar.js"></script>
+            <script type="text/javascript" src="/theme_unify/static/assets/js/plugins/owl-carousel.js"></script>
+            <script type="text/javascript" src="/theme_unify/static/assets/js/plugins/style-switcher.js"></script> -->
+            <!-- <script type="text/javascript">
+            jQuery(document).ready(function() {
+                App.init();
+                App.initCounter();
+                App.initParallaxBg();
+                OwlCarousel.initOwlCarousel();
+                StyleSwitcher.initStyleSwitcher();
+                ProgressBar.initProgressBarVertical();
+            });
+            </script> -->
+
+            <!--[if lt IE 9]>
+            <script src="/theme_unify/static/assets/plugins/respond.js"></script>
+            <script src="/theme_unify/static/assets/plugins/html5shiv.js"></script>
+            <script src="/theme_unify/static/assets/plugins/placeholder-IE-fixes.js"></script>
+            <![endif]-->
+        </xpath>
+    </template>
+
+    <template id="layout" name="Unify layout" inherit_id="website.layout">
+        <div id="wrapwrap" position="attributes">
+            <attribute name="class">wrapper</attribute>
+        </div>
+    </template>
+
+    <template id="assets_frontend_editor" name="Unify frontend assets editor" inherit_id="website.assets_frontend" groups="base.group_website_designer">
+        <xpath expr="//link[last()]" position="after">
+            <link href="/theme_unify/static/src/css/customize_modal.css" rel="stylesheet" type="text/css"/>
+        </xpath>
+    </template>
+
+    <template id="snippets" name="Unify snippets" inherit_id="website.snippets">
+        <ul position="inside">
+            <li>
+                <a href="#snippet_unify" class="scroll-link">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-square fa-stack-2x fa-inverse"/>
+                        <i class="fa fa-desktop fa-stack-1x"/>
+                    </span>
+                </a>
+            </li>
+        </ul>
+
+        <div id="o_scroll" position="inside">
+            <div id="snippet_unify" class="o_panel">
+                <div class="o_panel_header">
+                    <span class="fa-stack">
+                        <i class="fa fa-desktop fa-stack-1x"/>
+                    </span> Unify
+                </div>
+                <div class="o_panel_body">
+                    <t t-snippet="theme_unify.snippet_news" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                    <t t-snippet="theme_unify.snippet_parallax" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
+
+                    <t t-snippet="theme_unify.snippet_textTitleBg" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                    <t t-snippet="theme_unify.snippet_basicContent" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                    <t t-snippet="theme_unify.snippet_3Blocks" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                    <t t-snippet="theme_unify.snippet_verticalStats" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                    <t t-snippet="theme_unify.snippet_growingNumbers" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                    <t t-snippet="theme_unify.snippet_teamPresentation" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                    <t t-snippet="theme_unify.snippet_testimonial" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                    <t t-snippet="theme_unify.snippet_imageSlider" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                </div>
+            </div>
+        </div>
+
+    </template>
+
+</odoo>

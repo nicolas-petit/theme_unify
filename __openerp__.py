@@ -7,12 +7,17 @@
     'author': 'Yannick Buron (Clouder)',
     'depends': ['website'],
     'data': [
-        'views/snippets.xml',
-        'views/assets.xml',
-        'views/headers.xml',
-        'views/footers.xml',
-        'views/themes.xml',
-        'views/options.xml',
+
+        'views/features/news.xml',
+        'views/features/parallax.xml',
+
+        'views/pages/about/aboutUs1.xml',
+
+        'views/specials/assets.xml',
+        'views/specials/headers.xml',
+        'views/specials/footers.xml',
+        'views/specials/themes.xml',
+        'views/specials/options.xml',
     ],
     # 'qweb': ['static/src/xml/header.xml'],
     'installable': True,
