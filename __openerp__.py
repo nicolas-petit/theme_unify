@@ -12,13 +12,15 @@
 
         'views/pages/about/aboutUs1.xml',
 
+        'views/pages/onepages/classic.xml',
+
         'views/specials/assets.xml',
         'views/specials/headers.xml',
         'views/specials/footers.xml',
         'views/specials/themes.xml',
         'views/specials/options.xml',
 
-        'views/snippets.xml',
+        # 'views/snippets.xml',
 
     ],
     # 'qweb': ['static/src/xml/header.xml'],
