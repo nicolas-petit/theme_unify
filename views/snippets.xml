@@ -1,52 +1,5 @@
-<!-- <odoo>
-
-    <template id="snippet_news" name="News snippet">
-        <section>
-            <div class="container content-sm">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 md-margin-bottom-30">
-                            <h2 class="title-v2">WATCH ABOUT US</h2>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p><br/>
-                            <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-dark">Read More</a>
-                            <a href="#" class="btn-u">Purchase Now</a>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="responsive-video"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </template>
-
-    <template id="snippet_parallax" name="Parallax snippet">
-        <section>
-            <div class="parallax-quote parallaxBg" style="background-position: 50% 79px;">
-                <div class="container">
-                    <div class="parallax-quote-in">
-                        <p>If you can design one thing <span class="color-green">you can design</span> everything. <br/> Just Believe It.</p>
-                        <small>- HtmlStream -</small>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </template>
-
-    <template id="snippet_aboutUs" name="About Us snippet">
-        <div class="breadcrumbs-v3 img-v1 text-center">
-			<div class="container">
-				<h1>About Us</h1>
-				<p>Unify is a clean and fully responsive</p>
-			</div>
-		</div>
-    </template>
-
-</odoo> -->
-
 <odoo>
-    
+
     <template id="snippet_promo" name="Promo snippet">
         <!-- Promo block BEGIN -->
         <section class="promo-section" id="intro">
@@ -115,7 +68,7 @@
                     Focused on helping our clients to build a <strong>successful</strong> business on web and mobile.</p>
                 </div>
                 <div class="img-center">
-                    <img class="img-responsive" src="assets/img/mockup/mockup.png" alt=""/>
+                    <img class="img-responsive" src="/theme_unify/static/assets/img/mockup/mockup.png" alt=""/>
                 </div>
             </div>
             <!-- Intro Block -->
@@ -190,7 +143,7 @@
                         <div class="row margin-bottom-50">
                             <div class="col-md-6 md-margin-bottom-50">
                                 <div class="testimonials-info rounded-bottom">
-                                    <img alt="" src="assets/img/testimonials/img5.jpg" class="rounded-x"/>
+                                    <img alt="" src="/theme_unify/static/assets/img/testimonials/img5.jpg" class="rounded-x"/>
                                     <div class="testimonials-desc">
                                         <p>Donec quis lorem sit amet nibh tempor porttitor non eu justo. Fusce iaculis scelerisque nibh at rhoncus. Aliquam blandit.</p>
                                         <strong>Evan Bohringer</strong>
@@ -200,7 +153,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="testimonials-info rounded-bottom">
-                                    <img alt="" src="assets/img/testimonials/img6.jpg" class="rounded-x"/>
+                                    <img alt="" src="/theme_unify/static/assets/img/testimonials/img6.jpg" class="rounded-x"/>
                                     <div class="testimonials-desc">
                                         <p>Donec quis lorem sit amet nibh tempor porttitor non eu justo. Fusce iaculis scelerisque nibh at rhoncus. Aliquam blandit.</p>
                                         <strong>Sara Lisbon</strong>
@@ -213,7 +166,7 @@
                         <div class="row margin-bottom-20">
                             <div class="col-md-6 md-margin-bottom-50">
                                 <div class="testimonials-info rounded-bottom">
-                                    <img alt="" src="assets/img/testimonials/img3.jpg" class="rounded-x"/>
+                                    <img alt="" src="/theme_unify/static/assets/img/testimonials/img3.jpg" class="rounded-x"/>
                                     <div class="testimonials-desc">
                                         <p>Donec quis lorem sit amet nibh tempor porttitor non eu justo. Fusce iaculis scelerisque nibh at rhoncus. Aliquam blandit.</p>
                                         <strong>Alice Williams</strong>
@@ -223,7 +176,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="testimonials-info rounded-bottom">
-                                    <img alt="" src="assets/img/testimonials/img2.jpg" class="rounded-x"/>
+                                    <img alt="" src="/theme_unify/static/assets/img/testimonials/img2.jpg" class="rounded-x"/>
                                     <div class="testimonials-desc">
                                         <p>Donec quis lorem sit amet nibh tempor porttitor non eu justo. Fusce iaculis scelerisque nibh at rhoncus. Aliquam blandit.</p>
                                         <strong>Jane Wearne</strong>
@@ -253,7 +206,7 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <img class="img-responsive" src="assets/img/mockup/mockup1.png" alt=""/>
+                            <img class="img-responsive" src="/theme_unify/static/assets/img/mockup/mockup1.png" alt=""/>
                         </div>
                         <div class="col-md-6 content-boxes-v3 padding-top-20">
                             <div class="clearfix margin-bottom-30">
@@ -299,7 +252,7 @@
 
                     <div class="row team-v6">
                         <div class="col-md-3 col-sm-6 md-margin-bottom-50">
-                            <img alt="" src="assets/img/team/img3-md.jpg" class="img-responsive"/>
+                            <img alt="" src="/theme_unify/static/assets/img/team/img3-md.jpg" class="img-responsive"/>
                             <span>David Case</span>
                             <small>Graphic Designer</small>
                             <ul class="list-inline social-icons-v1">
@@ -309,7 +262,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3 col-sm-6 md-margin-bottom-50">
-                            <img alt="" src="assets/img/team/img5-md.jpg" class="img-responsive"/>
+                            <img alt="" src="/theme_unify/static/assets/img/team/img5-md.jpg" class="img-responsive"/>
                             <span>Sara Lisbon</span>
                             <small>Community</small>
                             <ul class="list-inline social-icons-v1">
@@ -319,7 +272,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3 col-sm-6 sm-margin-bottom-50">
-                            <img alt="" src="assets/img/team/img2-md.jpg" class="img-responsive"/>
+                            <img alt="" src="/theme_unify/static/assets/img/team/img2-md.jpg" class="img-responsive"/>
                             <span>Alice Williams</span>
                             <small>Support</small>
                             <ul class="list-inline social-icons-v1">
@@ -329,7 +282,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3 col-sm-6">
-                            <img alt="" src="assets/img/team/img1-md.jpg" class="img-responsive"/>
+                            <img alt="" src="/theme_unify/static/assets/img/team/img1-md.jpg" class="img-responsive"/>
                             <span>John Doe</span>
                             <small>Marketing</small>
                             <ul class="list-inline social-icons-v1">
@@ -453,7 +406,7 @@
                 <div class="row news-v2">
                     <div class="col-md-4 sm-margin-bottom-30">
                         <div class="news-v2-badge">
-                            <img class="img-responsive" src="assets/img/contents/img1.jpg" alt=""/>
+                            <img class="img-responsive" src="/theme_unify/static/assets/img/contents/img1.jpg" alt=""/>
                             <p>
                                 <span>28</span>
                                 <small>Jun</small>
@@ -467,7 +420,7 @@
                     </div>
                     <div class="col-md-4 sm-margin-bottom-30">
                         <div class="news-v2-badge">
-                            <img class="img-responsive" src="assets/img/contents/img3.jpg" alt=""/>
+                            <img class="img-responsive" src="/theme_unify/static/assets/img/contents/img3.jpg" alt=""/>
                             <p>
                                 <span>16</span>
                                 <small>Jun</small>
@@ -481,7 +434,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="news-v2-badge">
-                            <img class="img-responsive" src="assets/img/contents/img4.jpg" alt=""/>
+                            <img class="img-responsive" src="/theme_unify/static/assets/img/contents/img4.jpg" alt=""/>
                             <p>
                                 <span>07</span>
                                 <small>Jun</small>
