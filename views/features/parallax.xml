@@ -1,0 +1,14 @@
+<odoo>
+    <template id="snippet_parallax" name="Parallax snippet">
+        <section>
+            <div class="parallax-quote parallaxBg" style="background-position: 50% 79px;">
+                <div class="container">
+                    <div class="parallax-quote-in">
+                        <p>If you can design one thing <span class="color-green">you can design</span> everything. <br/> Just Believe It.</p>
+                        <small>- HtmlStream -</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

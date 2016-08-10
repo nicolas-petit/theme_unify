@@ -1,0 +1,7 @@
+- 1 page of each type fully "snippet-ed"
+- Add Javascript to Clouder
+- Add "/" to every self closing tag (python's parser don't understand self closing tags like <img /> and <br />)
+
+-------------------------------------------------------------
+- DON'T FORGET TO ADD THE SNIPPETS TO THE ASSETS.XML FILE !!!
+-------------------------------------------------------------
