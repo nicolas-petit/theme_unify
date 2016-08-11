@@ -1125,7 +1125,7 @@ i.icon-bg-u {
 	color:#27d7e7;
 }
 .pricing-head h3 {
-	background:#27d7e7;
+	/*background:#27d7e7;*/
 	text-shadow: 0 1px 0 #26bac8;
 }
 .pricing-head h4 {
@@ -1592,4 +1592,3 @@ i.icon-bg-u {
 .header-v8 .mega-menu .mega-menu-fullwidth .dropdown-link-list li a:hover {
 	color: #27d7e7;
 }
-

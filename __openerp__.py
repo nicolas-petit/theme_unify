@@ -10,7 +10,7 @@
         'views/features/news.xml',
         'views/features/parallax.xml',
 
-        'views/pages/about/aboutUs1.xml',
+        # 'views/pages/about/aboutUs1.xml',
 
         'views/onepages/classic.xml',
 

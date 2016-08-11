@@ -307,7 +307,7 @@ body #theme_customize_modal .tab-pane label.chd-layout-combi .sample_body .sampl
   text-align: center;
 }
 body #theme_customize_modal .tab-pane label.chd-layout-combi .sample_body .sample_wrap .sample_image {
-  background-image: url("/theme_graphene/static/src/img/pictures/bg_image_08.jpg");
+  background-image: url("/theme_unify/static/src/img/pictures/bg_image_08.jpg");
   background-size: cover;
   background-position: center;
   height: 90px;

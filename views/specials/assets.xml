@@ -13,6 +13,7 @@
         	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/plugins/font-awesome/css/font-awesome.min.css" />
         	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/plugins/parallax-slider/css/parallax-slider.css" />
         	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/plugins/owl-carousel/owl-carousel/owl.carousel.css" />
+            <link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/css/pages/page_pricing.css" />
         	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/css/theme-colors/default.css" id="style_color" />
         	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/css/theme-skins/dark.css" />
         	<link rel="stylesheet" type="text/css" href="/theme_unify/static/assets/css/custom.css" />
@@ -22,9 +23,9 @@
     <template id="assets_animations" name="Unify animations assets" inherit_id="website.assets_editor">
         <xpath expr="//script[last()]" position="after">
             <script type="text/javascript" src="/theme_unify/static/assets/plugins/jquery/jquery-migrate.min.js"></script>
-            <script type="text/javascript" src="/theme_unify/static/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+            <!-- <script type="text/javascript" src="/theme_unify/static/assets/plugins/bootstrap/js/bootstrap.min.js"></script> -->
             <script type="text/javascript" src="/theme_unify/static/assets/plugins/back-to-top.js"></script>
-            <script type="text/javascript" src="/theme_unify/static/assets/plugins/smoothScroll.js"></script>
+            <!-- <script type="text/javascript" src="/theme_unify/static/assets/plugins/smoothScroll.js"></script> -->
             <script type="text/javascript" src="/theme_unify/static/assets/plugins/jquery-appear.js"></script>
             <script type="text/javascript" src="/theme_unify/static/assets/plugins/jquery.parallax.js"></script>
             <script type="text/javascript" src="/theme_unify/static/assets/plugins/counter/waypoints.min.js"></script>
@@ -85,7 +86,7 @@
                     </span> Unify
                 </div>
                 <div class="o_panel_body">
-                    <t t-snippet="theme_unify.snippet_news" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                    <!-- <t t-snippet="theme_unify.snippet_news" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
                     <t t-snippet="theme_unify.snippet_parallax" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
 
                     <t t-snippet="theme_unify.snippet_text_title_bg" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
@@ -95,7 +96,7 @@
                     <t t-snippet="theme_unify.snippet_growing_numbers" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
                     <t t-snippet="theme_unify.snippet_team_presentation" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
                     <t t-snippet="theme_unify.snippet_testimonial" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
-                    <t t-snippet="theme_unify.snippet_image_slider" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                    <t t-snippet="theme_unify.snippet_image_slider" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/> -->
 
                     <t t-snippet="theme_unify.snippet_promo" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
                     <t t-snippet="theme_unify.snippet_color_service" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
