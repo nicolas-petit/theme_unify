@@ -1,0 +1,134 @@
+<odoo>
+    <template id="snippet_pricing_light" name="Pricing Light snippet">
+        <section>
+            <!--=== Content Part ===-->
+            <div class="container content">
+                <!-- Pricing Light -->
+                <div class="row margin-bottom-40 pricing-light">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="pricing hover-effect">
+                            <div t-if="top==True" class="sticker-left">Top</div>
+                            <div class="pricing-head">
+                                <h3>Begginer <span>Labore et dolore magnaras </span></h3>
+                            </div>
+                            <ul class="pricing-content list-unstyled">
+                                <li>
+                                    <ul class="list-unstyled list-inline rating">
+                                        <li><i class="fa fa-star fa-2x"></i></li>
+                                        <li><i class="fa fa-star-half-empty fa-2x"></i></li>
+                                        <li><i class="fa fa-star-o fa-2x"></i></li>
+                                        <li><i class="fa fa-star-o fa-2x"></i></li>
+                                        <li><i class="fa fa-star-o fa-2x"></i></li>
+                                    </ul>
+                                </li>
+                                <li class="bg-color"> One User </li>
+                                <li>10 GB Diskspace</li>
+                                <li class="bg-color">10 Emails Addresses</li>
+                                <li>$25 Facebook Add Vaucher</li>
+                                <li class="bg-color"> One SSL Certificate</li>
+                                <li>Online Support</li>
+                            </ul>
+                            <div class="pricing-footer">
+                                <h4><i>$</i>5<i>.49</i> <span>Per Month</span></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cloud Storage magna psum condimentum...</p>
+                                <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-default btn-u-xs"><i class="fa fa-shopping-cart"></i> Purchase Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="pricing hover-effect">
+                            <div class="sticker-left">Top</div>
+                            <div class="pricing-head">
+                                <h3>Unify Pro <span>Labore et dolore magnaras </span></h3>
+                            </div>
+                            <ul class="pricing-content list-unstyled">
+                                <li>
+                                    <ul class="list-unstyled list-inline rating">
+                                        <li><i class="fa fa-star fa-2x"></i></li>
+                                        <li><i class="fa fa-star fa-2x"></i></li>
+                                        <li><i class="fa fa-star-half-empty fa-2x"></i></li>
+                                        <li><i class="fa fa-star-o fa-2x"></i></li>
+                                        <li><i class="fa fa-star-o fa-2x"></i></li>
+                                    </ul>
+                                </li>
+                                <li class="bg-color"> One User </li>
+                                <li>10 GB Diskspace</li>
+                                <li class="bg-color">10 Emails Addresses</li>
+                                <li>$25 Facebook Add Vaucher</li>
+                                <li class="bg-color">One SSL Certificate</li>
+                                <li>Online Support</li>
+                            </ul>
+                            <div class="pricing-footer">
+                                <h4><i>$</i>8<i>.69</i> <span>Per Month</span></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cloud Storage magna psum condimentum...</p>
+                                <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-default btn-u-xs"><i class="fa fa-shopping-cart"></i> Purchase Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="pricing hover-effect">
+                            <div class="sticker-left">Top</div>
+                            <div class="pricing-head">
+                                <h3>Premium <span>Labore et dolore magnaras </span></h3>
+                            </div>
+                            <ul class="pricing-content list-unstyled">
+                                <li>
+                                    <ul class="list-unstyled list-inline rating">
+                                        <li><i class="fa fa-star fa-2x"></i></li>
+                                        <li><i class="fa fa-star fa-2x"></i></li>
+                                        <li><i class="fa fa-star fa-2x"></i></li>
+                                        <li><i class="fa fa-star-half-empty fa-2x"></i></li>
+                                        <li><i class="fa fa-star-o fa-2x"></i></li>
+                                    </ul>
+                                </li>
+                                <li class="bg-color"> One User </li>
+                                <li>10 GB Diskspace</li>
+                                <li class="bg-color">10 Emails Addresses</li>
+                                <li>$25 Facebook Add Vaucher</li>
+                                <li class="bg-color"> One SSL Certificate</li>
+                                <li>Online Support</li>
+                            </ul>
+                            <div class="pricing-footer">
+                                <h4><i>$</i>13<i>.99</i> <span>Per Month</span></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cloud Storage magna psum condimentum...</p>
+                                <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-default btn-u-xs"><i class="fa fa-shopping-cart"></i> Purchase Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="pricing hover-effect">
+                            <div class="sticker-left">Top</div>
+                            <div class="pricing-head">
+                                <h3>Elite <span>Labore et dolore magnaras </span></h3>
+                            </div>
+                            <ul class="pricing-content list-unstyled">
+                                <li>
+                                    <ul class="list-unstyled list-inline rating">
+                                        <li><i class="fa fa-star fa-2x"></i></li>
+                                        <li><i class="fa fa-star fa-2x"></i></li>
+                                        <li><i class="fa fa-star fa-2x"></i></li>
+                                        <li><i class="fa fa-star fa-2x"></i></li>
+                                        <li><i class="fa fa-star fa-2x"></i></li>
+                                    </ul>
+                                </li>
+                                <li class="bg-color"> One User </li>
+                                <li>10 GB Diskspace</li>
+                                <li class="bg-color">10 Emails Addresses</li>
+                                <li>$25 Facebook Add Vaucher</li>
+                                <li class="bg-color"> One SSL Certificate</li>
+                                <li>Online Support</li>
+                            </ul>
+                            <div class="pricing-footer">
+                                <h4><i>$</i>99<i>.00</i> <span>Per Month</span></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cloud Storage magna psum condimentum...</p>
+                                <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-default btn-u-xs"><i class="fa fa-shopping-cart"></i> Purchase Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/row-->
+                <!-- End Pricing Light -->
+            </div><!--/container-->
+            <!--=== End Content Part ===-->
+        </section>
+    </template>
+</odoo>

@@ -43,6 +43,18 @@
                 </li>
             </div>
         </xpath>
+
+        <xpath expr="//div[@data-js='background']" position="after">
+            <div data-selector=".pricing" data-js="theme_unify_snippet_options_pricing">
+                <li class="dropdown-submenu">
+                    <a href="#">Banner "Top"</a>
+                    <ul class="dropdown-menu">
+                        <li data-select_class="unify_pricing_top_banner"><a>Yes</a></li>
+                        <li data-select_class=""><a>No</a></li>
+                    </ul>
+                </li>
+            </div>
+        </xpath>
      </template>
 
 </odoo>
