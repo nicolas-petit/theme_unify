@@ -12,7 +12,7 @@ odoo.define("theme_unify.unify_options_pricing", function(require) {
         }
     });*/
 
-    console.log("JS mod \"theme_unify.unify_options.pricing\" loaded");
+    // console.log("JS mod \"theme_unify.unify_options.pricing\" loaded");
 
     var pricing_top_banner_handler = function (e) {
         $(".pricing").each(function(i, elem) {
@@ -61,9 +61,11 @@ odoo.define("theme_unify.unify_options_pricing", function(require) {
         });
     };
 
+    pricing_top_banner_handler();
+
     $('body').on('DOMNodeInserted', 'div', function (e) {
-        console.log("DOMNodeInserted");
+        // console.log("DOMNodeInserted");
         // unbind the handler before re-binding it so it won't be bind more than once per selector
-        $(".snippet-option-theme_unify_snippet_options_pricing").unbind("click", pricing_top_banner_handler).bind("click", pricing_top_banner_handler);
+        $(".snippet-option-unify_options_pricing").unbind("click", pricing_top_banner_handler).bind("click", pricing_top_banner_handler);
     });
 });
