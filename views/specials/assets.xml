@@ -54,6 +54,12 @@
         </xpath>
     </template>
 
+    <template id="assets_frontend_js" name="Unify options" inherit_id="website.assets_frontend">
+      <xpath expr="//script[last()]" position="after">
+          <script type="text/javascript" src="/theme_unify/static/src/js/pricing.js"></script>
+      </xpath>
+    </template>
+
     <template id="layout" name="Unify layout" inherit_id="website.layout">
         <div id="wrapwrap" position="attributes">
             <attribute name="class">wrapper</attribute>
