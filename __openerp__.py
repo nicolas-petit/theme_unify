@@ -12,7 +12,7 @@
 
         # 'views/pages/about/aboutUs1.xml',
 
-        # 'views/onepages/classic.xml',
+        'views/onepages/classic.xml',
         'views/onepages/pricing.xml',
 
         'views/specials/assets.xml',

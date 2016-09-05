@@ -12,7 +12,7 @@
                                 <h3>Begginer <span>Labore et dolore magnaras </span></h3>
                             </div>
                             <ul class="pricing-content list-unstyled">
-                                <li>
+                                <li class="pricing-note">
                                     <ul class="list-unstyled list-inline rating">
                                         <li><i class="fa fa-star fa-2x"></i></li>
                                         <li><i class="fa fa-star-half-empty fa-2x"></i></li>
@@ -42,7 +42,7 @@
                                 <h3>Unify Pro <span>Labore et dolore magnaras </span></h3>
                             </div>
                             <ul class="pricing-content list-unstyled">
-                                <li>
+                                <li class="pricing-note">
                                     <ul class="list-unstyled list-inline rating">
                                         <li><i class="fa fa-star fa-2x"></i></li>
                                         <li><i class="fa fa-star fa-2x"></i></li>
@@ -72,7 +72,7 @@
                                 <h3>Premium <span>Labore et dolore magnaras </span></h3>
                             </div>
                             <ul class="pricing-content list-unstyled">
-                                <li>
+                                <li class="pricing-note">
                                     <ul class="list-unstyled list-inline rating">
                                         <li><i class="fa fa-star fa-2x"></i></li>
                                         <li><i class="fa fa-star fa-2x"></i></li>
@@ -102,7 +102,7 @@
                                 <h3>Elite <span>Labore et dolore magnaras </span></h3>
                             </div>
                             <ul class="pricing-content list-unstyled">
-                                <li>
+                                <li class="pricing-note">
                                     <ul class="list-unstyled list-inline rating">
                                         <li><i class="fa fa-star fa-2x"></i></li>
                                         <li><i class="fa fa-star fa-2x"></i></li>
@@ -132,3 +132,4 @@
         </section>
     </template>
 </odoo>
+

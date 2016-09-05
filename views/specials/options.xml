@@ -53,8 +53,25 @@
                         <li data-select_class=""><a>No</a></li>
                     </ul>
                 </li>
+                <li class="dropdown-submenu">
+                    <a href="#">Note</a>
+                    <ul class="dropdown-menu">
+                        <li data-select_class="unify_pricing_note_0"><a>0</a></li>
+                        <li data-select_class="unify_pricing_note_0_5"><a>0.5</a></li>
+                        <li data-select_class="unify_pricing_note_1"><a>1</a></li>
+                        <li data-select_class="unify_pricing_note_1_5"><a>1.5</a></li>
+                        <li data-select_class="unify_pricing_note_2"><a>2</a></li>
+                        <li data-select_class="unify_pricing_note_2_5"><a>2.5</a></li>
+                        <li data-select_class="unify_pricing_note_3"><a>3</a></li>
+                        <li data-select_class="unify_pricing_note_3_5"><a>3.5</a></li>
+                        <li data-select_class="unify_pricing_note_4"><a>4</a></li>
+                        <li data-select_class="unify_pricing_note_4_5"><a>4.5</a></li>
+                        <li data-select_class="unify_pricing_note_5"><a>5</a></li>
+                    </ul>
+                </li>
             </div>
         </xpath>
      </template>
 
 </odoo>
+
