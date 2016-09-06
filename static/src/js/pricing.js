@@ -2,41 +2,16 @@ odoo.define("theme_unify.unify_options_pricing", function(require) {
     "use strict";
 
     var s_options = require('web_editor.snippets.options');
-    /*s_options.registry.unify_options_pricing = s_options.Class.extends({
-        start: {
-            'click .pricing .sticker-left': 'log_it',
-            'log_it': function (e) {
-                e.stopPropagation();
-                console.log("click .pricing .sticker-left");
-            }
-        }
-    });*/
-
-    // console.log("JS mod \"theme_unify.unify_options.pricing\" loaded");
 
     var pricing_top_banner_handler = function (e) {
         $(".pricing").each(function(i, elem) {
             // check if we should hide or show the top banner
-            var hasClass = false;
-            var classList = elem.className.split(/\s+/);
-
-            for (var i = 0; i < classList.length; i++) {
-                if (classList[i] === 'unify_pricing_top_banner') {
-                    hasClass = true;
-                }
-            }
+            var hasTopBanner = hasClass(elem, 'unify_pricing_top_banner');
 
             var $topBanner = $(elem.children[0]);
 
             // check if the selected child is indeed the top banner
-            var leftSticker = false;
-            var classList = elem.children[0].className.split(/\s+/);
-
-            for (var i = 0; i < classList.length; i++) {
-                if (classList[i] === 'sticker-left') {
-                    leftSticker = true;
-                }
-            }
+            var leftSticker = hasClass(elem.children[0], 'sticker-left');
 
             // if the child is not the right one, create it
             if (!leftSticker) {
@@ -50,7 +25,7 @@ odoo.define("theme_unify.unify_options_pricing", function(require) {
             $topBanner = $(elem.children[0]);
 
             // hide/show the banner
-            if (hasClass) {
+            if (hasTopBanner) {
                 // console.log("show top banner");
                 $topBanner.removeClass("hidden");
             } else {
@@ -61,11 +36,40 @@ odoo.define("theme_unify.unify_options_pricing", function(require) {
         });
     };
 
+    var pricing_note_handler = function (e) {
+        $(".pricing").each(function(i, elem) {
+            // elem has a note
+            if (hasClass(elem, /unify_pricing_note.*/)) {
+                var note = Number(getClass(elem, /unify_pricing_note.*/).replace("unify_pricing_note_", "").replace(/_/, "."));
+                var htmlStars = "";
+                var nbStars = 0;
+                for (var i = 0 ; i < parseInt(note) ; i++) {
+                    htmlStars += '<li><i class="fa fa-star fa-2x"></i></li>\n';
+                    ++nbStars;
+                }
+
+                if (note - parseInt(note) === 0.5) {
+                    htmlStars += '<li><i class="fa fa-star-half-empty fa-2x"></i></li>';
+                    ++nbStars;
+                }
+
+                for (var i = nbStars ; i < 5 ; i++) {
+                    htmlStars += '<li><i class="fa fa-star-o fa-2x"></i></li>';
+                }
+
+                $(elem).find(".pricing-content > li > ul").html(htmlStars);
+            }
+        });
+    };
+
+    pricing_note_handler();
     pricing_top_banner_handler();
 
     $('body').on('DOMNodeInserted', 'div', function (e) {
         // console.log("DOMNodeInserted");
         // unbind the handler before re-binding it so it won't be bind more than once per selector
         $(".snippet-option-unify_options_pricing").unbind("click", pricing_top_banner_handler).bind("click", pricing_top_banner_handler);
+        $(".snippet-option-unify_options_pricing").unbind("click", pricing_note_handler).bind("click", pricing_note_handler);
     });
 });
+
