@@ -1,0 +1,112 @@
+<odoo>
+    <template id="snippet_promo" name="Promo snippet">
+        <!-- Promo block BEGIN -->
+        <section class="promo-section" id="intro">
+            <!-- Fullscreen Static Image BEGIN -->
+            <div class="fullscreen-static-image fullheight">
+                <!-- Promo Content BEGIN -->
+                <div class="container valign__middle">
+                    <div class="row">
+                      <div class="col-sm-10 col-sm-offset-1 text-center-xs">
+                        <h2>WE ARE UNIFY CREATIVE TECHNOLOGY COMPANY</h2>
+                        <div class="promo-text">
+                            Creative freedom matters user experience.<br/>
+                            We minimize the gap between technology and its audience.
+                        </div>
+                        <div class="promo-next">
+                            <span class="page-scroll"><a class="btn-u btn-brd btn-brd-hover btn-u-light" href="#about">Learn More</a></span>
+                            <span class="page-scroll"><a class="btn-u btn-brd btn-brd-hover btn-u-light" href="#portfolio">Our Work</a></span>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              <!-- Promo Content END -->
+              <!-- <div class="backstretch">
+                  <img src="/theme_unify/static/onepage/assets/classic/img/bg/img1.jpg" />
+              </div> -->
+            </div>
+            <!-- Fullscreen Static Image END -->
+        </section>
+        <!-- Promo block END -->
+    </template>
+
+    <template id="snippet_promo_style" name="Unify promo snippet's styles" inherit_id="website.assets_frontend">
+        <xpath expr="//link[last()]" position="after">
+        	<!-- CSS Global Compulsory -->
+        	<link rel="stylesheet" href="/theme_unify/static/onepage/assets/classic/css/one.style.css" />
+
+        	<!-- CSS Implementing Plugins -->
+        	<link rel="stylesheet" href="/theme_unify/static/onepage/assets/classic/plugins/animate.css" />
+        	<link rel="stylesheet" href="/theme_unify/static/onepage/assets/classic/plugins/line-icons/line-icons.css" />
+        	<link rel="stylesheet" href="/theme_unify/static/onepage/assets/classic/plugins/font-awesome/css/font-awesome.min.css" />
+        	<link rel="stylesheet" href="/theme_unify/static/onepage/assets/classic/plugins/pace/pace-flash.css" />
+        	<link rel="stylesheet" href="/theme_unify/static/onepage/assets/classic/plugins/owl-carousel/owl.carousel.css" />
+        	<link rel="stylesheet" href="/theme_unify/static/assets/plugins/cube-portfolio/cubeportfolio/css/cubeportfolio.min.css" />
+        	<link rel="stylesheet" href="/theme_unify/static/assets/plugins/cube-portfolio/cubeportfolio/custom/custom-cubeportfolio.css" />
+        	<link rel="stylesheet" href="/theme_unify/static/onepage/assets/classic/plugins/login-signup-modal-window/css/style.css" />
+
+        	<!-- Style Switcher -->
+        	<link rel="stylesheet" href="/theme_unify/static/onepage/assets/classic/css/plugins/style-switcher.css" />
+
+        	<!-- CSS Theme -->
+        	<link rel="stylesheet" href="/theme_unify/static/onepage/assets/classic/css/theme-colors/default.css" id="style_color" />
+        	<link rel="stylesheet" href="/theme_unify/static/onepage/assets/classic/css/theme-skins/one.dark.css" />
+
+        	<!-- CSS Customization -->
+        	<link rel="stylesheet" href="/theme_unify/static/onepage/assets/classic/css/custom.css" />
+        </xpath>
+    </template>
+
+    <template id="snippet_promo_scripts" name="Unify promo snippet's scripts" inherit_id="website.assets_editor">
+        <xpath expr="//script[last()]" position="after">
+
+            <!-- JS Global Compulsory -->
+        	<script src="/theme_unify/static/onepage/assets/classic/plugins/jquery/jquery-migrate.min.js"></script>
+        	<!-- JS Implementing Plugins -->
+        	<!-- <script src="/theme_unify/static/onepage/assets/classic/plugins/smoothScroll.js"></script> -->
+        	<script src="/theme_unify/static/onepage/assets/classic/plugins/jquery.easing.min.js"></script>
+        	<script src="/theme_unify/static/onepage/assets/classic/plugins/pace/pace.min.js"></script>
+        	<!-- <script src="/theme_unify/static/onepage/assets/classic/plugins/jquery.parallax.js"></script> -->
+        	<!-- <script src="/theme_unify/static/onepage/assets/classic/plugins/counter/waypoints.min.js"></script> -->
+        	<!-- <script src="/theme_unify/static/onepage/assets/classic/plugins/counter/jquery.counterup.min.js"></script> -->
+        	<!-- <script src="/theme_unify/static/onepage/assets/classic/plugins/owl-carousel/owl.carousel.js"></script> -->
+        	<script src="/theme_unify/static/onepage/assets/classic/plugins/sky-forms-pro/skyforms/js/jquery.form.min.js"></script>
+        	<script src="/theme_unify/static/onepage/assets/classic/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js"></script>
+        	<script src="/theme_unify/static/assets/plugins/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+        	<script src="/theme_unify/static/onepage/assets/classic/plugins/modernizr.js"></script>
+        	<script src="/theme_unify/static/onepage/assets/classic/plugins/login-signup-modal-window/js/main.js"></script> <!-- Gem jQuery -->
+        	<script src="/theme_unify/static/assets/plugins/backstretch/backstretch-ini.js"></script> <!-- promo -->
+
+        	<!-- JS Page Level-->
+        	<script src="/theme_unify/static/onepage/assets/classic/js/one.app.js"></script>
+        	<script src="/theme_unify/static/onepage/assets/classic/js/forms/login.js"></script>
+        	<script src="/theme_unify/static/onepage/assets/classic/js/forms/contact.js"></script>
+        	<script src="/theme_unify/static/onepage/assets/classic/js/plugins/pace-loader.js"></script>
+        	<script src="/theme_unify/static/onepage/assets/classic/js/plugins/owl-carousel.js"></script>
+        	<script src="/theme_unify/static/onepage/assets/classic/js/plugins/style-switcher.js"></script>
+        	<script src="/theme_unify/static/onepage/assets/classic/js/plugins/cube-portfolio/cube-portfolio-lightbox.js"></script>
+        	<script>
+        		jQuery(document).ready(function() {
+        			App.init();
+        			App.initCounter();
+        			App.initParallaxBg();
+        			LoginForm.initLoginForm();
+        			ContactForm.initContactForm();
+        			OwlCarousel.initOwlCarousel();
+        			StyleSwitcher.initStyleSwitcher();
+        		});
+        	</script>
+        	<!-- [if lt IE 9]>
+        		<script src="/theme_unify/static/onepage/assets/classic/plugins/respond.js"></script>
+        		<script src="/theme_unify/static/onepage/assets/classic/plugins/html5shiv.js"></script>
+        		<script src="/theme_unify/static/onepage/assets/classic/js/plugins/placeholder-IE-fixes.js"></script>
+        		<script src="/theme_unify/static/onepage/assets/classic/plugins/sky-forms-pro/skyforms/js/sky-forms-ie8.js"></script>
+        	<![endif] -->
+
+        	<!--[if lt IE 10]>
+        		<script src="/theme_unify/static/onepage/assets/classic/plugins/sky-forms-pro/skyforms/js/jquery.placeholder.min.js"></script>
+        	<![endif]-->
+        </xpath>
+    </template>
+</odoo>
+
