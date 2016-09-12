@@ -1,0 +1,60 @@
+<odoo>
+    <template id="snippet_services" name="Services snippet">
+        <!-- Services Section -->
+        <section id="services">
+            <div class="container content-lg">
+                <div class="title-v1">
+                    <h2>Our Services</h2>
+                    <p>We do <strong>things</strong> differently company providing key digital services. <br/>
+                    Focused on helping our clients to build a <strong>successful</strong> business on web and mobile.</p>
+                </div>
+
+                <div class="row service-box-v1">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block service-block-default">
+                            <i class="icon-custom icon-lg icon-bg-u rounded-x fa fa-lightbulb-o"></i>
+                            <h2 class="heading-md">Web Design &amp; Development</h2>
+                            <p>Donec id elit non mi porta gravida at eget metus id elit mi egetine. Fusce dapibus</p>
+                            <ul class="list-unstyled">
+                                <li>Logo &amp; Brand Design</li>
+                                <li>Mobile Development</li>
+                                <li>E-commerce</li>
+                                <li>App &amp; Icon Design</li>
+                                <li>Responsive Web Desgin</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block service-block-default">
+                            <i class="icon-custom icon-lg icon-bg-u rounded-x icon-line icon-present"></i>
+                            <h2 class="heading-sm">Marketing &amp; Cunsulting</h2>
+                            <p>Donec id elit non mi porta gravida at eget metus id elit mi egetine usce dapibus elit nondapibus</p>
+                            <ul class="list-unstyled">
+                                <li>Analysis &amp; Consulting</li>
+                                <li>Mobile Development</li>
+                                <li>Email Marketing</li>
+                                <li>App &amp; Icon Design</li>
+                                <li>Responsive Web Desgin</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="service-block service-block-default">
+                            <i class="icon-custom icon-lg icon-bg-u rounded-x icon-line icon-rocket"></i>
+                            <h2 class="heading-sm">SEO &amp; Advertising</h2>
+                            <p>Donec id elit non mi porta gravida at eget metus id elit mi egetine. Fusce dapibus</p>
+                            <ul class="list-unstyled">
+                                <li>Google AdSense</li>
+                                <li>Social Media</li>
+                                <li>Display Advertising</li>
+                                <li>App &amp; Icon Design</li>
+                                <li>Analysis &amp; Consulting</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Services Section -->
+    </template>
+</odoo>

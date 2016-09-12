@@ -101,10 +101,9 @@
                     <t t-snippet="theme_unify.snippet_3_blocks" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
                     <t t-snippet="theme_unify.snippet_vertical_stats" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
                     <t t-snippet="theme_unify.snippet_growing_numbers" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
-                    <t t-snippet="theme_unify.snippet_team_presentation" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
-                    <t t-snippet="theme_unify.snippet_testimonial" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
                     <t t-snippet="theme_unify.snippet_image_slider" t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/> -->
 
+                    <!-- Todos -->
                     <t t-snippet="theme_unify.snippet_color_service" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
                     <t t-snippet="theme_unify.snippet_call_action" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
                     <t t-snippet="theme_unify.snippet_parallax_twitter" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
@@ -116,7 +115,7 @@
                     <t t-snippet="theme_unify.snippet_latest_news" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
                     <t t-snippet="theme_unify.snippet_portfolio" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
 
-                    <!-- Debuged -->
+                    <!-- Debuged but still work to do to work fully -->
                     <t t-snippet="theme_unify.snippet_promo" t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
 
                     <!-- Done -->

@@ -1,0 +1,60 @@
+<odoo>
+    <template id="snippet_team" name="Team snippet">
+        <section>
+            <!-- Team Block -->
+            <div class="team-v1 content-lg">
+                <div class="container">
+                    <div class="title-v1">
+                        <h2>Meet Our Team</h2>
+                        <p>We <strong>meet</strong> and get to know you. You tell us and we listen. <br/>
+                        We build your website to realise your vision and we <strong>deliver</strong> the ready product.</p>
+                    </div>
+
+                    <div class="row team-v6">
+                        <div class="col-md-3 col-sm-6 md-margin-bottom-50">
+                            <img alt="" src="/theme_unify/static/onepage/assets/classic/img/team/img3-md.jpg" class="img-responsive"/>
+                            <span>David Case</span>
+                            <small>Graphic Designer</small>
+                            <ul class="list-inline social-icons-v1">
+                                <li><a href="#"><i class="rounded-x fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="rounded-x fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="rounded-x fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6 md-margin-bottom-50">
+                            <img alt="" src="/theme_unify/static/onepage/assets/classic/img/team/img5-md.jpg" class="img-responsive"/>
+                            <span>Sara Lisbon</span>
+                            <small>Community</small>
+                            <ul class="list-inline social-icons-v1">
+                                <li><a href="#"><i class="rounded-x fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="rounded-x fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="rounded-x fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6 sm-margin-bottom-50">
+                            <img alt="" src="/theme_unify/static/onepage/assets/classic/img/team/img2-md.jpg" class="img-responsive"/>
+                            <span>Alice Williams</span>
+                            <small>Support</small>
+                            <ul class="list-inline social-icons-v1">
+                                <li><a href="#"><i class="rounded-x fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="rounded-x fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="rounded-x fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <img alt="" src="/theme_unify/static/onepage/assets/classic/img/team/img1-md.jpg" class="img-responsive"/>
+                            <span>John Doe</span>
+                            <small>Marketing</small>
+                            <ul class="list-inline social-icons-v1">
+                                <li><a href="#"><i class="rounded-x fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="rounded-x fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="rounded-x fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Team Block -->
+        </section>
+    </template>
+</odoo>

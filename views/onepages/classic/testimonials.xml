@@ -1,0 +1,67 @@
+<odoo>
+    <template id="snippet_testimonials" name="Testimonials snippet">
+        <section>
+            <!-- Testimonials -->
+            <div class="what-people-say">
+                <div class="container content-lg">
+                    <div class="title-v1">
+                        <h2>What People Say</h2>
+                        <p>We do <strong>things</strong> differently company providing key digital services. <br/>
+                        Focused on helping our clients to build a <strong>successful</strong> business on web and mobile.</p>
+                    </div>
+
+                    <!-- Testimonials Wrap -->
+                    <div class="testimonials-v6 testimonials-wrap">
+                        <div class="row margin-bottom-50">
+                            <div class="col-md-6 md-margin-bottom-50">
+                                <div class="testimonials-info rounded-bottom">
+                                    <img alt="" src="/theme_unify/static/onepage/assets/classic/img/testimonials/img5.jpg" class="rounded-x"/>
+                                    <div class="testimonials-desc">
+                                        <p>Donec quis lorem sit amet nibh tempor porttitor non eu justo. Fusce iaculis scelerisque nibh at rhoncus. Aliquam blandit.</p>
+                                        <strong>Evan Bohringer</strong>
+                                        <span>Web Developer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="testimonials-info rounded-bottom">
+                                    <img alt="" src="/theme_unify/static/onepage/assets/classic/img/testimonials/img6.jpg" class="rounded-x"/>
+                                    <div class="testimonials-desc">
+                                        <p>Donec quis lorem sit amet nibh tempor porttitor non eu justo. Fusce iaculis scelerisque nibh at rhoncus. Aliquam blandit.</p>
+                                        <strong>Sara Lisbon</strong>
+                                        <span>Designer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--/end row-->
+
+                        <div class="row margin-bottom-20">
+                            <div class="col-md-6 md-margin-bottom-50">
+                                <div class="testimonials-info rounded-bottom">
+                                    <img alt="" src="/theme_unify/static/onepage/assets/classic/img/testimonials/img3.jpg" class="rounded-x"/>
+                                    <div class="testimonials-desc">
+                                        <p>Donec quis lorem sit amet nibh tempor porttitor non eu justo. Fusce iaculis scelerisque nibh at rhoncus. Aliquam blandit.</p>
+                                        <strong>Alice Williams</strong>
+                                        <span>Web Developer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="testimonials-info rounded-bottom">
+                                    <img alt="" src="/theme_unify/static/onepage/assets/classic/img/testimonials/img2.jpg" class="rounded-x"/>
+                                    <div class="testimonials-desc">
+                                        <p>Donec quis lorem sit amet nibh tempor porttitor non eu justo. Fusce iaculis scelerisque nibh at rhoncus. Aliquam blandit.</p>
+                                        <strong>Jane Wearne</strong>
+                                        <span>Technical Direector</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--/end row-->
+                    </div>
+                    <!-- End Testimonials Wrap -->
+                </div><!--/end container-->
+            </div>
+            <!-- End Testimonials -->
+        </section>
+    </template>
+</odoo>

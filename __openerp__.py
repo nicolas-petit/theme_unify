@@ -12,7 +12,6 @@
 
         # 'views/pages/about/aboutUs1.xml',
 
-        'views/onepages/classic.xml',
         'views/onepages/classic/promo.xml',
         'views/onepages/classic/pricing.xml',
         'views/onepages/classic/call_action.xml',

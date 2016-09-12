@@ -1,0 +1,60 @@
+<odoo>
+    <template id="snippet_latest_news" name="Latest News snippet">
+        <!-- Latest News -->
+        <section id="news" class="bg-color-light">
+            <div class="container content-lg">
+                <div class="title-v1">
+                    <h2>Latest News</h2>
+                    <p>We do <strong>things</strong> differently company providing key digital services. <br/>
+                    Focused on helping our clients to build a <strong>successful</strong> business on web and mobile.</p>
+                </div>
+
+                <div class="row news-v2">
+                    <div class="col-md-4 sm-margin-bottom-30">
+                        <div class="news-v2-badge">
+                            <img class="img-responsive" src="/theme_unify/static/onepage/assets/classic/img/contents/img1.jpg" alt=""/>
+                            <p>
+                                <span>28</span>
+                                <small>Jun</small>
+                            </p>
+                        </div>
+                        <div class="news-v2-desc">
+                            <h3><a href="#">Corrupti Quos Dolores</a></h3>
+                            <small>By Admin | <a class="color-inherit" href="#">16 Comments</a> | In <a href="#">Web Trends</a></small>
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 sm-margin-bottom-30">
+                        <div class="news-v2-badge">
+                            <img class="img-responsive" src="/theme_unify/static/onepage/assets/classic/img/contents/img3.jpg" alt=""/>
+                            <p>
+                                <span>16</span>
+                                <small>Jun</small>
+                            </p>
+                        </div>
+                        <div class="news-v2-desc">
+                            <h3><a href="#">Blanditi Praesium Voluptum</a></h3>
+                            <small>By Admin | <a class="color-inherit" href="#">51 Comments</a> | In <a href="#">Art &amp; Design</a></small>
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="news-v2-badge">
+                            <img class="img-responsive" src="/theme_unify/static/onepage/assets/classic/img/contents/img4.jpg" alt=""/>
+                            <p>
+                                <span>07</span>
+                                <small>Jun</small>
+                            </p>
+                        </div>
+                        <div class="news-v2-desc">
+                            <h3><a href="#">Key Digital Services</a></h3>
+                            <small>By Admin | <a class="color-inherit" href="#">32 Comments</a> | In <a href="#">Google &amp; Android</a></small>
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Latest News -->
+    </template>
+</odoo>

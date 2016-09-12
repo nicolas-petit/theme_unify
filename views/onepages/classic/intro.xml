@@ -1,0 +1,18 @@
+<odoo>
+    <template id="snippet_intro" name="Intro snippet">
+        <section>
+            <!-- Intro Block -->
+            <div class="container padding-top-60">
+                <div class="title-v1">
+                    <h1>We are Unify Agency</h1>
+                    <p>Unify <strong>creative</strong> technology company providing key digital services. <br/>
+                    Focused on helping our clients to build a <strong>successful</strong> business on web and mobile.</p>
+                </div>
+                <div class="img-center">
+                    <img class="img-responsive" src="/theme_unify/static/onepage/assets/classic/img/mockup/mockup.png" alt=""/>
+                </div>
+            </div>
+            <!-- Intro Block -->
+        </section>
+    </template>
+</odoo>
